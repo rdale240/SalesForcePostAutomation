@@ -8,7 +8,9 @@ import time
 
 ##REMAINING WORK:
     #Get/Set last IDs to ENV from DB
+        #UPDATE 2/7/19 - Server is Created, software needs to be installed on the virtual machine.
     #Add Program from DB to Program Drop Down - Finish adding <Select> <option> values
+        #UPDATE 2/7/19 - Program is determined by mySQL Table
     #Select Submit Button / Send Click()
 
 
@@ -23,6 +25,8 @@ USER=os.getenv("USER")
 PASS=os.getenv("PASS")
 DB=os.getenv("DB")
 PORT=os.getenv("PORT")
+#location of chromedriver.exe
+chromedriverLocation = os.getenv("CHROMEDRIVERPATH")
 print(HOST,USER,PASS,PORT)
 
 #respective databases
@@ -30,12 +34,44 @@ databases=["acctax","analytics","business","finance","gemba","hemba","intlbusine
 
 #Hashtable for Program Dropdown Values
 programDropdown = {"MBA - Executive MBA in Health Sector Mgt. and Policy":"a0I1500000HSVMDEA5",
-    "MBA - Global Executive MBA":"a0I1500000HSVMCEA5",
+    "MBA - Global Executive MBA":"a0I1500000HSVMCEA5", #Mapped
     "MBA - Global One":"a0I1C00000JcIB0UAN",
-    "MBA - Professional MBA":"a0I1500000HSVMHEA5",
+    "MBA - Professional MBA":"a0I1500000HSVMHEA5",#Mapped
+    "MD/MBA - Medical Doctorate/Master in Business Administration":"a0I1500000HSVMNEA5",
+    "MBA - Two-Year MBA":"a0I1500000HSVMEEA5",
+    "MBA - One-Year MBA":"a0I1500000HSVMGEA5",
+    "MBA - Accelerated MBA in Real Estate":"a0I1500000HSVMBEA5",
+    "JD/MBA/LLM - JD/MBA/Master in Taxation":"a0I1500000HSVPKEA5",
+    "JD/MBA/LLM - JD/MBA/Master in Real Property Development":"a0I1500000HSVPJEA5",
+    "JD/MBA - Juris Doctorate/Master in Business Administration":"a0I1500000HSVMUEA5",
+    "BARCH/MBA - Bachelor in Architecture/Master in Business Administration":"a0I1500000HSVM7EAP",
+    "MS - Taxation":"a0I1500000HSVMMEA5", #Mapped
+    "MS - Sustainable Business":"a0I1C00000JcIAvUAN", #Mapped
+    "MS - Leadership":"a0I1500000HSVMLEA5", #Mapped
+    "MS - International Business":"a0I1500000HSVMKEA5", #Mapped
+    "MS - Finance":"a0I1500000HSVMJEA5",
+    "MS - Business Analytics":"a0I1500000HSVMIEA5", #Mapped
+    "MHA - Master in Health Administration":"a0I1500000HO3ZpEAL",
+    "MACC/MST - Master in Accounting/Master in Tax":"a0I1500000HSVMVEA5",
+    "MACC - Accounting":"a0I1500000HSVMAEA5",#Mapped
+    "Certificate - Leadership":"a0I1500000HSVMOEA5",
 }
 
-print(programDropdown["MBA - Professional MBA"])
+support = {
+    "Master in Taxation":"MS - Taxation",
+    "Master in Accounting":"MACC - Accounting",
+    "MS in Leadership":"MS - Leadership",
+    "MS in Sustainable Business":"MS - Sustainable Business",
+    "Professional MBA":"MBA - Professional MBA",
+    "MS in Health Administration":"MHA - Master in Health Administration",
+    "MS in International Business":"MS - International Business",
+    "Health Executive MBA":"",
+    "Global Executive MBA":"MBA - Global Executive MBA",
+    "MS in Business Analytics":"MS - Business Analytics",
+
+}
+
+print(programDropdown[support["Master in Taxation"]])
 time.sleep(5)
 #connect to mySQL server to acquire data to post to salesforce
 cnx = mysql.connector.connect(user=USER, password=PASS,
@@ -43,8 +79,7 @@ cnx = mysql.connector.connect(user=USER, password=PASS,
                               database='umiami')
 
 print(cnx)
-#location of chromedriver.exe
-chromedriverLocation = os.getenv(CHROMEDRIVERPATH)
+
 #Open Chrome
 driver = webdriver.Chrome(chromedriverLocation)
 
@@ -104,7 +139,7 @@ for database in databases:
         phone=str(phone).replace("+","")
         phoneInput.send_keys(phone)
         ######################################
-        time.sleep(3)
+
     #Close Cursor
     cursor.close()
 #Close mySQL Connection after cycling through all DBs
