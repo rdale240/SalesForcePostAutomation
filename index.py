@@ -8,15 +8,14 @@ import time
 
 ##REMAINING WORK:
     #Get/Set last IDs to ENV from DB
-    #Add Program from DB to Program Drop Down
+    #Add Program from DB to Program Drop Down - Finish adding <Select> <option> values
     #Select Submit Button / Send Click()
 
 
 #Implement .env to protect database information
 load_dotenv()
 
-#location of chromedriver.exe
-chromedriverLocation = 'C:\\Users\\Richard\\chromedriver.exe'
+
 
 #load database information
 HOST=os.getenv("HOST")
@@ -29,12 +28,23 @@ print(HOST,USER,PASS,PORT)
 #respective databases
 databases=["acctax","analytics","business","finance","gemba","hemba","intlbusiness","leadership","mba","mha","promba","sustainable"]
 
+#Hashtable for Program Dropdown Values
+programDropdown = {"MBA - Executive MBA in Health Sector Mgt. and Policy":"a0I1500000HSVMDEA5",
+    "MBA - Global Executive MBA":"a0I1500000HSVMCEA5",
+    "MBA - Global One":"a0I1C00000JcIB0UAN",
+    "MBA - Professional MBA":"a0I1500000HSVMHEA5",
+}
+
+print(programDropdown["MBA - Professional MBA"])
+time.sleep(5)
 #connect to mySQL server to acquire data to post to salesforce
 cnx = mysql.connector.connect(user=USER, password=PASS,
                               host=HOST,
                               database='umiami')
 
 print(cnx)
+#location of chromedriver.exe
+chromedriverLocation = os.getenv(CHROMEDRIVERPATH)
 #Open Chrome
 driver = webdriver.Chrome(chromedriverLocation)
 
@@ -101,7 +111,7 @@ for database in databases:
 cnx.close()
 #################################################
 
-
+#End of Program
 
 # #Sample Data
 # firstName='Hello World'
