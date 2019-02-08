@@ -5,6 +5,10 @@ import os
 import mysql.connector
 import time
 
+##ASSUMPTIONS
+    #Program of Interest is determined by mySQL Table
+    #Country is unimportant to SalesForce
+
 
 ##REMAINING WORK:
     #Get/Set last IDs to ENV from DB
