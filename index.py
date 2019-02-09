@@ -15,7 +15,10 @@ import time
         #UPDATE 2/7/19 - Server is Created, software needs to be installed on the virtual machine.
     #Add Program from DB to Program Drop Down - Finish adding <Select> <option> values
         #UPDATE 2/7/19 - Program is determined by mySQL Table
+        #UPDATE 2/8/19 - May informed to not access Business table because those links are forwarded to Business Director/ Online goes to online options
     #Select Submit Button / Send Click()
+    #Criteria for Bad Lead:
+        #Less than 10 digits
 
 
 #Implement .env to protect database information
