@@ -18,7 +18,7 @@ import time
         #UPDATE 2/8/19 - May informed to not access Business table because those links are forwarded to Business Director/ Online goes to online options
     #Select Submit Button / Send Click()
     #Criteria for Bad Lead:
-        #Less than 10 digits
+        #Less than 10 digits in phone number
 
 
 #Implement .env to protect database information
@@ -37,7 +37,8 @@ chromedriverLocation = os.getenv("CHROMEDRIVERPATH")
 print(HOST,USER,PASS,PORT)
 
 #respective databases
-databases=["acctax","analytics","business","finance","gemba","hemba","intlbusiness","leadership","mba","mha","promba","sustainable"]
+databases=["acctax","analytics","finance","gemba","hemba","intlbusiness","leadership","mba","mha","promba","sustainable"]
+    #business not entered to salesforce
 
 #Hashtable for Program Dropdown Values
 programDropdown = {"MBA - Executive MBA in Health Sector Mgt. and Policy":"a0I1500000HSVMDEA5",
@@ -64,21 +65,21 @@ programDropdown = {"MBA - Executive MBA in Health Sector Mgt. and Policy":"a0I15
     "Certificate - Leadership":"a0I1500000HSVMOEA5",
 }
 
-support = {
-    "Master in Taxation":"MS - Taxation",
-    "Master in Accounting":"MACC - Accounting",
-    "MS in Leadership":"MS - Leadership",
-    "MS in Sustainable Business":"MS - Sustainable Business",
-    "Professional MBA":"MBA - Professional MBA",
-    "MS in Health Administration":"MHA - Master in Health Administration",
-    "MS in International Business":"MS - International Business",
-    "Health Executive MBA":"",
-    "Global Executive MBA":"MBA - Global Executive MBA",
-    "MS in Business Analytics":"MS - Business Analytics",
-
+programFromDB= {
+    "intlbusiness":"MS - International Business",
+    "hemba":"MBA - Executive MBA in Health Sector Mgt Policy",
+    "gemba":"MBA - Global Executive MBA",
+    "finance":"MS - Finance",
+    "analytics":"MS - Business Analytics",
+    "acctax":"decide",
+    "sustainable": "MS - Sustainable Business",
+    "promba":"MBA - Professional MBA",
+    "mha":"MHA - Master in Health Administration",
+    "mba":"MBA - Two-Year MBA",
+    "leadership":"MS - Leadership"
 }
 
-print(programDropdown[support["Master in Taxation"]])
+print(programDropdown[programFromDB["intlbusiness"]])
 time.sleep(5)
 #connect to mySQL server to acquire data to post to salesforce
 cnx = mysql.connector.connect(user=USER, password=PASS,
@@ -115,41 +116,64 @@ for database in databases:
     #For all data returned from Query, execute Automation
     for(id,first_name,last_name,email,phone,utm_source,utm_medium,utm_campaign, program) in cursor:
         print(id,first_name,last_name,email,phone,utm_source,utm_medium,utm_campaign, program)
-        #Go to Salesforce URL
-        if(utm_source==None):
-            utm_source=""
-        if(utm_medium==None):
-            utm_medium=""
-        if(utm_campaign==None):
-            utm_campaign=""
-        driver.get(url+'/?utm_source='+utm_source+'&utm_medium='+utm_medium+'&utm_campaign='+utm_campaign) #URL must be custom for source
-        ##########################
+        if (program == "Online Master in Professional Accounting"):
+            {
+                #Do Nothing
+                #load to send to UOnline
+            }
+        else:
+            #Go to Salesforce URL
+            if(utm_source==None):
+                utm_source=""
+            if(utm_medium==None):
+                utm_medium=""
+            if(utm_campaign==None):
+                utm_campaign=""
+            driver.get(url+'/?utm_source='+utm_source+'&utm_medium='+utm_medium+'&utm_campaign='+utm_campaign) #URL must be custom for source
+            ##########################
 
-        #First Name Input
-        fNameInput=driver.find_element_by_name('First_Name__c')
-        first_name=''.join(e for e in first_name if e.isalnum())
-        fNameInput.send_keys(first_name)
+            #Program Input
+            programInput=driver.find_element_by_name("Recruitment_Plan__c")
+            programInputSelector = Select(programInput)
+            #Based on Business Rules
+            if (database == "acctax"):
+                if (program == "MS in Accounting"):
+                    programOption = "MACC - Accounting"
+                elif (program == "MS in Taxation"):
+                    programOption = "MS - Taxation"
+                elif (program == "Undecided"):
+                    programOption = "MACC/MST - Master in Accounting/Master in Taxation"
+            else:
+                programOption = programDropdown[programFromDB[database]]
+            #################
+            programInputSelector.select_by_value(programOption) 
+            #########################################
 
-        #Last Name Input
-        lNameInput=driver.find_element_by_name('Last_Name__c')
-        last_name=''.join(e for e in last_name if e.isalnum())
-        lNameInput.send_keys(last_name)
-        #####################################
+            #First Name Input
+            fNameInput=driver.find_element_by_name('First_Name__c')
+            first_name=''.join(e for e in first_name if e.isalnum())
+            fNameInput.send_keys(first_name)
 
-        #Email Input
-        emailInput=driver.find_element_by_name('Email__c')
-        emailInput.send_keys(email)
-        #####################################
+            #Last Name Input
+            lNameInput=driver.find_element_by_name('Last_Name__c')
+            last_name=''.join(e for e in last_name if e.isalnum())
+            lNameInput.send_keys(last_name)
+            #####################################
 
-        #Phone Input
-        phoneInput=driver.find_element_by_name('Home_Phone__c')
-        phone=str(phone).replace("+","")
-        phoneInput.send_keys(phone)
-        ######################################
+            #Email Input
+            emailInput=driver.find_element_by_name('Email__c')
+            emailInput.send_keys(email)
+            #####################################
+
+            #Phone Input
+            phoneInput=driver.find_element_by_name('Home_Phone__c')
+            phone=str(phone).replace("+","")
+            phoneInput.send_keys(phone)
+            ######################################
 
     #Close Cursor
     cursor.close()
-#Close mySQL Connection after cycling through all DBs
+    #Close mySQL Connection after cycling through all DBs
 cnx.close()
 #################################################
 
