@@ -37,6 +37,10 @@ USER=os.getenv("USER")
 PASS=os.getenv("PASS")
 DB=os.getenv("DB")
 PORT=os.getenv("PORT")
+STATEHOST=os.getenv("STATEHOST")
+STATEUSER=os.getenv("STATEUSER")
+STATEPASS=os.getenv("STATEPASS")
+STATEPORT=os.getenv("STATEPORT")
 #location of chromedriver.exe
 chromedriverLocation = os.getenv("CHROMEDRIVERPATH")
 print(HOST,USER,PASS,PORT)
@@ -86,6 +90,19 @@ programFromDB= {
 }
 
 print(programDropdown[programFromDB["intlbusiness"]])
+#connect to mySQL server to acquire state
+stateCnx = mysql.connector.connect(user=STATEUSER, password=STATEPASS,
+                              host=STATEHOST,
+                              database='sfpatest')
+stateCursor=stateCnx.cursor() 
+stateQuery=("SELECT * FROM timestamps")
+#Execute SQL Query
+stateCursor.execute(stateQuery)
+print(stateCursor)
+
+time.sleep(5)
+
+
 #connect to mySQL server to acquire data to post to salesforce
 cnx = mysql.connector.connect(user=USER, password=PASS,
                               host=HOST,
