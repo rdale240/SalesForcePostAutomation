@@ -20,6 +20,11 @@ import time
     #Criteria for Bad Lead:
         #Less than 10 digits in phone number
 
+#Initialize Performance Data Records
+numSubmissions = 0
+f = open('record.txt', 'w')
+start_time = time.time()
+
 
 #Implement .env to protect database information
 load_dotenv()
@@ -37,8 +42,9 @@ chromedriverLocation = os.getenv("CHROMEDRIVERPATH")
 print(HOST,USER,PASS,PORT)
 
 #respective databases
-databases=["acctax","analytics","finance","gemba","hemba","intlbusiness","leadership","mba","mha","promba","sustainable"]
+databases=["acctax","analytics","finance","hemba","intlbusiness","leadership","mba","mha","promba","sustainable"]
     #business not entered to salesforce
+    #removed "gemba" for testing purposes
 
 #Hashtable for Program Dropdown Values
 programDropdown = {"MBA - Executive MBA in Health Sector Mgt. and Policy":"a0I1500000HSVMDEA5",
@@ -67,7 +73,7 @@ programDropdown = {"MBA - Executive MBA in Health Sector Mgt. and Policy":"a0I15
 
 programFromDB= {
     "intlbusiness":"MS - International Business",
-    "hemba":"MBA - Executive MBA in Health Sector Mgt Policy",
+    "hemba":"MBA - Executive MBA in Health Sector Mgt. and Policy",
     "gemba":"MBA - Global Executive MBA",
     "finance":"MS - Finance",
     "analytics":"MS - Business Analytics",
@@ -80,7 +86,6 @@ programFromDB= {
 }
 
 print(programDropdown[programFromDB["intlbusiness"]])
-time.sleep(5)
 #connect to mySQL server to acquire data to post to salesforce
 cnx = mysql.connector.connect(user=USER, password=PASS,
                               host=HOST,
@@ -110,12 +115,15 @@ for database in databases:
     #Open mySQL Cursor
     cursor=cnx.cursor()    
     #SQL Query
-    query=("SELECT id, first_name, last_name, email, phone, utm_source, utm_medium, utm_campaign, program FROM "+database + " where ID > 600" ) # where ID > some ID related to DB
+    dateOfLastSubmission='"2019-02-05"'
+    timeOfLastSubmission='"07:00:00"'
+    #query=("SELECT id, first_name, last_name, email, phone, utm_source, utm_medium, utm_campaign, program FROM "+database + " WHERE ID > 605 AND ID < 700" ) # where ID > some ID related to DB
+    query=("SELECT id, first_name, last_name, email, phone, time_of_submission, utm_source, utm_medium, utm_campaign, program FROM "+database + " WHERE DATE(time_of_submission) > "+ dateOfLastSubmission+ " AND TIME(time_of_submission) > "+ timeOfLastSubmission )
     #Execute SQL Query
     cursor.execute(query)
     #For all data returned from Query, execute Automation
-    for(id,first_name,last_name,email,phone,utm_source,utm_medium,utm_campaign, program) in cursor:
-        print(id,first_name,last_name,email,phone,utm_source,utm_medium,utm_campaign, program)
+    for(id,first_name,last_name,email,phone, time_of_submission, utm_source,utm_medium,utm_campaign, program) in cursor:
+        print(database, id,first_name,last_name,email,phone,utm_source,utm_medium,utm_campaign, program)
         if (program == "Online Master in Professional Accounting"):
             {
                 #Do Nothing
@@ -137,12 +145,13 @@ for database in databases:
             programInputSelector = Select(programInput)
             #Based on Business Rules
             if (database == "acctax"):
-                if (program == "MS in Accounting"):
-                    programOption = "MACC - Accounting"
-                elif (program == "MS in Taxation"):
-                    programOption = "MS - Taxation"
+                if (program == "Master in Accounting"):
+                    programOptionTag = "MACC - Accounting"
+                elif (program == "Master in Taxation"):
+                    programOptionTag = "MS - Taxation"
                 elif (program == "Undecided"):
-                    programOption = "MACC/MST - Master in Accounting/Master in Taxation"
+                    programOptionTag = "MACC/MST - Master in Accounting/Master in Tax"
+                programOption=programDropdown[programOptionTag]
             else:
                 programOption = programDropdown[programFromDB[database]]
             #################
@@ -171,12 +180,22 @@ for database in databases:
             phoneInput.send_keys(phone)
             ######################################
 
+
+            #Submit Button Click
+            submitButton=driver.find_element_by_name('Submit')
+            #submitButton.click()
+            numSubmissions = numSubmissions + 1
+
+            print(database, id, time_of_submission, programOption, program, first_name,last_name,email,phone, file=open("record.txt","a"))
     #Close Cursor
     cursor.close()
     #Close mySQL Connection after cycling through all DBs
 cnx.close()
 #################################################
-
+end_time = time.time() - start_time
+print(end_time, file=open("record.txt","a"))
+print(numSubmissions," entries added to salesforce", file=open("record.txt","a"))
+f.close()
 #End of Program
 
 # #Sample Data
