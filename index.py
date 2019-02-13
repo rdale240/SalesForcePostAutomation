@@ -1,12 +1,13 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from dotenv import load_dotenv
+import datetime
 import os
 import mysql.connector
 import time
 
 ##ASSUMPTIONS
-    #Program of Interest is determined by mySQL Table
+    #Program of Interest is determined by mySQL Table/Certain Business Rules
     #Country is unimportant to SalesForce
 
 
@@ -20,10 +21,13 @@ import time
     #Criteria for Bad Lead:
         #Less than 10 digits in phone number
 
+
 #Initialize Performance Data Records
 numSubmissions = 0
 f = open('record.txt', 'w')
 start_time = time.time()
+now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+print(now)
 
 
 #Implement .env to protect database information
@@ -43,12 +47,11 @@ STATEPASS=os.getenv("STATEPASS")
 STATEPORT=os.getenv("STATEPORT")
 #location of chromedriver.exe
 chromedriverLocation = os.getenv("CHROMEDRIVERPATH")
-print(HOST,USER,PASS,PORT)
 
 #respective databases
 databases=["acctax","analytics","finance","hemba","intlbusiness","leadership","mba","mha","promba","sustainable"]
     #business not entered to salesforce
-    #removed "gemba" for testing purposes
+    #removed "gemba" for testing purposes (phone is not a valid field)
 
 #Hashtable for Program Dropdown Values
 programDropdown = {"MBA - Executive MBA in Health Sector Mgt. and Policy":"a0I1500000HSVMDEA5",
@@ -89,18 +92,29 @@ programFromDB= {
     "leadership":"MS - Leadership"
 }
 
-print(programDropdown[programFromDB["intlbusiness"]])
 #connect to mySQL server to acquire state
 stateCnx = mysql.connector.connect(user=STATEUSER, password=STATEPASS,
                               host=STATEHOST,
-                              database='sfpatest')
+                              database='sfpatest',
+                              )
+#Read State Database
 stateCursor=stateCnx.cursor() 
-stateQuery=("SELECT * FROM timestamps")
+stateQuery=("SELECT timestamp FROM state WHERE id=1")
 #Execute SQL Query
 stateCursor.execute(stateQuery)
-print(stateCursor)
+for (timestamp) in stateCursor:
+    print("time from db",timestamp[0])
+    queryTime=timestamp[0].strftime("%Y-%m-%d %H:%M:%S")
+stateCursor.close()
+#*************************************
 
-time.sleep(5)
+#Update State Database
+stateUpdateCursor=stateCnx.cursor() 
+stateUpdate=("UPDATE state SET timestamp="+ '"'+now+'" where ID=1')
+#Execute SQL Query
+stateUpdateCursor.execute(stateUpdate)
+stateCnx.commit()
+#************************************
 
 
 #connect to mySQL server to acquire data to post to salesforce
@@ -132,10 +146,9 @@ for database in databases:
     #Open mySQL Cursor
     cursor=cnx.cursor()    
     #SQL Query
-    dateOfLastSubmission='"2019-02-05"'
-    timeOfLastSubmission='"07:00:00"'
     #query=("SELECT id, first_name, last_name, email, phone, utm_source, utm_medium, utm_campaign, program FROM "+database + " WHERE ID > 605 AND ID < 700" ) # where ID > some ID related to DB
-    query=("SELECT id, first_name, last_name, email, phone, time_of_submission, utm_source, utm_medium, utm_campaign, program FROM "+database + " WHERE DATE(time_of_submission) > "+ dateOfLastSubmission+ " AND TIME(time_of_submission) > "+ timeOfLastSubmission )
+    query=("SELECT id, first_name, last_name, email, phone, time_of_submission, utm_source, utm_medium, utm_campaign, program FROM "+database + " WHERE DATE(time_of_submission) > "+ 'DATE("'+queryTime+'")' + " AND TIME(time_of_submission) > "+'TIME("'+ queryTime+'")' )
+    print(query)
     #Execute SQL Query
     cursor.execute(query)
     #For all data returned from Query, execute Automation
@@ -208,6 +221,11 @@ for database in databases:
     cursor.close()
     #Close mySQL Connection after cycling through all DBs
 cnx.close()
+#################################################
+
+
+#Close Chrome Browser
+driver.close()
 #################################################
 end_time = time.time() - start_time
 print(end_time, file=open("record.txt","a"))
