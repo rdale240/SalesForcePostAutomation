@@ -10,21 +10,29 @@ import time
     #Program of Interest is determined by mySQL Table/Certain Business Rules
     #Country is unimportant to SalesForce
 
-
-##REMAINING WORK:
+##LEGACY WORK:
     #Get/Set last IDs to ENV from DB
         #UPDATE 2/7/19 - Server is Created, software needs to be installed on the virtual machine.
+        #COMPLETE - Transitioned to timestamps to determine entries
     #Add Program from DB to Program Drop Down - Finish adding <Select> <option> values
         #UPDATE 2/7/19 - Program is determined by mySQL Table
         #UPDATE 2/8/19 - May informed to not access Business table because those links are forwarded to Business Director/ Online goes to online options
+        #COMPLETE
     #Select Submit Button / Send Click()
+        #COMPLETE
+
+
+##REMAINING WORK:
+    #COPY DATABASE ENTRIES IN CASE SYSTEM GOES DOWN
+    #WRITE TRANSACTIONAL DATA TO SFPATEST DATABASE
+    #WAIT FOR CSS CHANGE WHEN ITEM IS SUBMITTED
     #Criteria for Bad Lead:
         #Less than 10 digits in phone number
 
 
 #Initialize Performance Data Records
 numSubmissions = 0
-f = open('record.txt', 'w')
+f = open('record.txt', 'a')
 start_time = time.time()
 now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 print(now)
@@ -92,11 +100,25 @@ programFromDB= {
     "leadership":"MS - Leadership"
 }
 
+
+#connect to mySQL server to update transactions
+transCnx = mysql.connector.connect(user=STATEUSER, password=STATEPASS,
+                              host=STATEHOST,
+                              database='sfpatest',
+                              )
+
+
 #connect to mySQL server to acquire state
 stateCnx = mysql.connector.connect(user=STATEUSER, password=STATEPASS,
                               host=STATEHOST,
                               database='sfpatest',
                               )
+
+#connect to mySQL server to acquire data to post to salesforce
+cnx = mysql.connector.connect(user=USER, password=PASS,
+                              host=HOST,
+                              database='umiami')
+
 #Read State Database
 stateCursor=stateCnx.cursor() 
 stateQuery=("SELECT timestamp FROM state WHERE id=1")
@@ -115,14 +137,6 @@ stateUpdate=("UPDATE state SET timestamp="+ '"'+now+'" where ID=1')
 stateUpdateCursor.execute(stateUpdate)
 stateCnx.commit()
 #************************************
-
-
-#connect to mySQL server to acquire data to post to salesforce
-cnx = mysql.connector.connect(user=USER, password=PASS,
-                              host=HOST,
-                              database='umiami')
-
-print(cnx)
 
 #Open Chrome
 driver = webdriver.Chrome(chromedriverLocation)
@@ -170,6 +184,10 @@ for database in databases:
             driver.get(url+'/?utm_source='+utm_source+'&utm_medium='+utm_medium+'&utm_campaign='+utm_campaign) #URL must be custom for source
             ##########################
 
+            #"More Information" Click
+            moreInformation=driver.find_element_by_name("event-selection")
+            moreInformation.click()
+
             #Program Input
             programInput=driver.find_element_by_name("Recruitment_Plan__c")
             programInputSelector = Select(programInput)
@@ -215,7 +233,12 @@ for database in databases:
             submitButton=driver.find_element_by_name('Submit')
             #submitButton.click()
             numSubmissions = numSubmissions + 1
-
+            #TransactionDB
+            transactionCursor=transCnx.cursor(buffered=True) 
+            transactionQuery=('INSERT INTO transactions (`database`,`first_name`,`last_name`,`email`,`phone`,`utm_source`,`utm_medium`,`utm_campaign`,`program`,`timestamp`) VALUES("' + database + '", "' + first_name + '", "' + last_name + '", "' + email + '", "' + phone + '", "'+ utm_source + '", "' + utm_medium+ '", "' + utm_campaign +'", "' + program + '",CURRENT_TIME())')
+            #Execute SQL Query
+            transactionCursor.execute(transactionQuery)
+            transCnx.commit()
             print(database, id, time_of_submission, programOption, program, first_name,last_name,email,phone, file=open("record.txt","a"))
     #Close Cursor
     cursor.close()

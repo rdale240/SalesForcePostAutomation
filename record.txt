@@ -1,2 +1,70 @@
-9.972084999084473
-0  entries added to salesforce
+acctax 683 2019-02-20 19:00:26 a0I1500000HSVMVEA5 Undecided test8 test8 test8@gmail.com 7078888888
+analytics 446 2019-02-14 18:50:22 a0I1500000HSVMIEA5 MS in Business Analytics Manuchehr Umarov umarov01_01@icloud.com 992900620004
+analytics 448 2019-02-15 15:33:47 a0I1500000HSVMIEA5 MS in Business Analytics Andres Duran andresduran9@icloud.com 5054178585
+analytics 449 2019-02-15 22:50:03 a0I1500000HSVMIEA5 MS in Business Analytics lucky Du yand12275@gmail.com 15941614399
+analytics 457 2019-02-16 15:54:20 a0I1500000HSVMIEA5 MS in Business Analytics Jayesh Mandhyani jayeshmandhyani2606@gmail.com 9892118581
+analytics 458 2019-02-17 16:56:35 a0I1500000HSVMIEA5 MS in Business Analytics Sukomoy Chakma sukomoychakz@gmail.com 917619692837
+analytics 459 2019-02-17 18:43:12 a0I1500000HSVMIEA5 MS in Business Analytics Mirza MinhazBaig mirza.22sept@gmail.com 9538999277
+analytics 460 2019-02-17 19:37:17 a0I1500000HSVMIEA5 MS in Business Analytics Mahesh Edake maheshedake25@gmail.com 8930521591
+analytics 461 2019-02-17 23:16:39 a0I1500000HSVMIEA5 MS in Business Analytics Tshiempodackyo Thyrtsa hibengodacko@gmail.com 8613167122294
+analytics 476 2019-02-18 16:10:19 a0I1500000HSVMIEA5 MS in Business Analytics Vignesh RajaChandrasekaran vigneshraja165@gmail.com 9176892761
+analytics 477 2019-02-18 16:33:34 a0I1500000HSVMIEA5 MS in Business Analytics Santosh Konappanavar ssk21m@gmail.com 8217771352
+analytics 478 2019-02-18 17:18:31 a0I1500000HSVMIEA5 MS in Business Analytics Ranjith Kumar ranjthkumarprince007@gmail.com 19986657279
+analytics 479 2019-02-18 17:19:00 a0I1500000HSVMIEA5 MS in Business Analytics Ranjith Kumar ranjthkumarprince007@gmail.com 19986657279
+analytics 480 2019-02-18 18:37:04 a0I1500000HSVMIEA5 MS in Business Analytics Vicky Sahani 05061992v@gmail.com 7666130710
+analytics 481 2019-02-18 20:52:57 a0I1500000HSVMIEA5 MS in Business Analytics Shweta Suvarna shwetasvrn6@gmail.com 9867335177
+analytics 491 2019-02-19 17:12:43 a0I1500000HSVMIEA5 MS in Business Analytics AMITKUMAR KHANDEKAR amitkumark.87@gmail.com 8830276907
+analytics 492 2019-02-19 17:23:41 a0I1500000HSVMIEA5 MS in Business Analytics mohd tanveer mohdtanveer477@gmail.com 9911777375
+analytics 497 2019-02-20 15:58:43 a0I1500000HSVMIEA5 MS in Business Analytics Brucha Blum brifkyblum@gmail.com 8455214671
+analytics 498 2019-02-20 16:51:33 a0I1500000HSVMIEA5 MS in Business Analytics Akhil Dua akhildua1995@gmail.com 91-9582544009
+analytics 499 2019-02-20 19:02:07 a0I1500000HSVMIEA5 MS in Business Analytics test9 test9 test9@gmail.com 9999999999
+analytics 500 2019-02-20 22:58:25 a0I1500000HSVMIEA5 MS in Business Analytics Simon Acosta acosta1204@gmail.com 593999019909
+analytics 501 2019-02-20 23:13:46 a0I1500000HSVMIEA5 MS in Business Analytics Jitendra Yadav yj434894@gmail.com 18577874647
+analytics 502 2019-02-20 23:14:39 a0I1500000HSVMIEA5 MS in Business Analytics Jitendra Yadav yj434894@gmail.com 18577874647
+finance 2207 2019-02-14 21:22:18 a0I1500000HSVMJEA5 Undecided Edward Farrell farrellep@gmail.com 8046295803
+finance 2208 2019-02-14 22:21:11 a0I1500000HSVMJEA5 Undecided Jesus Jose jose.jesus16@gmail.com 6463217894
+finance 2214 2019-02-15 16:27:28 a0I1500000HSVMJEA5 Professional MS in Finance Alexander Johnson raelander@icloud.com 6507850959
+finance 2215 2019-02-15 16:31:56 a0I1500000HSVMJEA5 Undecided Rayane Cunha rfcunha3@gmail.com 5531981750598
+finance 2224 2019-02-17 18:55:16 a0I1500000HSVMJEA5 Undecided Mariam Baramidze Baramidzemariam.mb@gmail.com 598282670
+finance 2229 2019-02-18 17:12:22 a0I1500000HSVMJEA5 Online MS in Finance Manuel Rodas manuel.rodas199925@gmail.com 502 4417 0526
+finance 2230 2019-02-18 17:14:27 a0I1500000HSVMJEA5 Undecided DeMarcus Hunt demarcushunt87@gmail.com 9016189666
+finance 2231 2019-02-18 19:39:47 a0I1500000HSVMJEA5 Undecided ana kamadadze anaqamadadze2000@gmail.com 995514066000
+finance 2232 2019-02-18 22:10:50 a0I1500000HSVMJEA5 Online MS in Finance Adam Niedbalski nidblsk2@illinois.edu 8476247579
+finance 2233 2019-02-18 23:32:21 a0I1500000HSVMJEA5 Daytime MS in Finance Rafael Mendes rafael.figueiredo.mendes@gmail.com 7325863429
+finance 2238 2019-02-19 15:39:04 a0I1500000HSVMJEA5 Professional MS in Finance DaiShaun Mercer daiifdb400@gmail.com 2018525322
+finance 2239 2019-02-19 16:12:12 a0I1500000HSVMJEA5 Online MS in Finance Salome Darsalia Darsalia98@gmail.com 995579351527
+finance 2240 2019-02-19 19:13:55 a0I1500000HSVMJEA5 Undecided Mariam Mikeladze mariammikeladze40@gmai.com 557387807
+finance 2241 2019-02-19 22:03:05 a0I1500000HSVMJEA5 Online MS in Finance Winsgleydavid Escalanteacosta davidesca79@gmail.com 3104701002
+finance 2244 2019-02-20 18:25:33 a0I1500000HSVMJEA5 Undecided Emily Pace pacee1543@gmail.com 7045789843
+finance 2245 2019-02-20 18:58:15 a0I1500000HSVMJEA5 Undecided test7 test7 test7@gmail.com 9548888888
+finance 2246 2019-02-20 19:42:44 a0I1500000HSVMJEA5 Online MS in Finance Melody Veatchh melodyveatch@yahoo.com 314-363-5854
+finance 2247 2019-02-20 21:42:33 a0I1500000HSVMJEA5 Online MS in Finance Josselin Caballero josselincaballero95@gmail.com 50230107978
+finance 2248 2019-02-20 22:14:06 a0I1500000HSVMJEA5 Professional MS in Finance Jimnelly Duran jimnelly28@gmail.com 58 4241504779
+finance 2251 2019-02-21 15:39:42 a0I1500000HSVMJEA5 Undecided JuanCamilo SanchezMolina mr.sirzechzs@gmail.com 3207335574
+finance 2252 2019-02-21 17:33:25 a0I1500000HSVMJEA5 Daytime MS in Finance viviana castillo vivianaisabelcastillo@gmail.com 04246604618
+finance 2253 2019-02-21 19:25:43 a0I1500000HSVMJEA5 Undecided Jeann Tom tomjeann4@gmail.com 5055955240
+hemba 257 2019-02-14 20:13:59 a0I1500000HSVMDEA5 Health Executive MBA MARCOS DOSSANTOS marcos.rds@icloud.com 7868700751
+hemba 259 2019-02-17 18:28:10 a0I1500000HSVMDEA5 Health Executive MBA Phara Paul pharapaul12@icloud.com 5617745750
+hemba 260 2019-02-17 19:02:12 a0I1500000HSVMDEA5 Health Executive MBA Rob Ortega robert.x.ortega@gmail.com 3233021188
+hemba 262 2019-02-20 18:47:13 a0I1500000HSVMDEA5 Health Executive MBA test1 test1 test1@gmail.com 954-444-4444
+intlbusiness 30 2019-02-19 22:35:01 a0I1500000HSVMKEA5 MS in International Business isabella rignanese isarignanese@gmail.com 4074010114
+intlbusiness 32 2019-02-20 19:04:56 a0I1500000HSVMKEA5 MS in International Business test12 test12 test12@gmail.com 1111111111
+leadership 1211 2019-02-20 19:03:21 a0I1500000HSVMLEA5 MS in Leadership test10 test10 test10@gmail.com 1011011010
+mba 1114 2019-02-20 18:55:22 a0I1500000HSVMEEA5 undecided test5 test5 test5@gmail.com 3055555555
+mha 127 2019-02-17 16:51:31 a0I1500000HO3ZpEAL MS in Health Administration Shaun Basinger shaunbasinger724@gmail.com 7243235891
+mha 128 2019-02-17 19:37:09 a0I1500000HO3ZpEAL MS in Health Administration Nanar Krikorian nanarderkrikorian22@gmail.com 424 224 1405
+mha 131 2019-02-20 18:56:59 a0I1500000HO3ZpEAL MS in Health Administration test6 test6 test6@gmail.com 3052222222
+mha 132 2019-02-20 19:47:40 a0I1500000HO3ZpEAL MS in Health Administration Kornelia Mierzejewska kmierze6@gmail.com 3475155551
+promba 203 2019-02-15 15:52:55 a0I1500000HSVMHEA5 Professional MBA Ariel Vazquez arielvazquez78@outlook.com 7868049487
+promba 214 2019-02-20 17:30:27 a0I1500000HSVMHEA5 Professional MBA Raylen Gomero gomeroremon1982@gmail.com 7868534096
+promba 215 2019-02-20 17:31:09 a0I1500000HSVMHEA5 Professional MBA Raylen Gomero gomeroremon1982@gmail.com 7868534096
+promba 216 2019-02-20 17:33:22 a0I1500000HSVMHEA5 Professional MBA Raylen Gomero gomeroremon1982@gmail.com 7868534096
+promba 217 2019-02-20 18:53:29 a0I1500000HSVMHEA5 Professional MBA test4 test4 test4@gmail.com 3053333333
+promba 219 2019-02-21 16:44:08 a0I1500000HSVMHEA5 Professional MBA Cesar Valenzuela rene.valenzuela@unitedcp.com 2103795232
+sustainable 79 2019-02-15 18:00:59 a0I1C00000JcIAvUAN MS in Sustainable Business Stephen Katz Stephenhkatz@gmail.com 9088396914
+sustainable 80 2019-02-15 21:41:51 a0I1C00000JcIAvUAN MS in Sustainable Business Vanessa Theoharis vanessa@oho.com 6174994967
+sustainable 81 2019-02-19 15:56:31 a0I1C00000JcIAvUAN MS in Sustainable Business Michael DiGiulio mike.digiulio@tetratech.com 2017047110
+sustainable 82 2019-02-19 20:38:00 a0I1C00000JcIAvUAN MS in Sustainable Business keith cameron cameron.957@osu.edu 2159003069
+sustainable 83 2019-02-20 19:37:34 a0I1C00000JcIAvUAN MS in Sustainable Business Erika Gonzalez egonz488@fiu.edu 7868795127
+232.2928183078766
+68  entries added to salesforce
