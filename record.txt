@@ -68,3 +68,39 @@ sustainable 82 2019-02-19 20:38:00 a0I1C00000JcIAvUAN MS in Sustainable Business
 sustainable 83 2019-02-20 19:37:34 a0I1C00000JcIAvUAN MS in Sustainable Business Erika Gonzalez egonz488@fiu.edu 7868795127
 232.2928183078766
 68  entries added to salesforce
+analytics 520 2019-02-23 15:59:32 a0I1500000HSVMIEA5 MS in Business Analytics ariana lopez arianalopez151720@gmail.com (347)595-4899
+finance 2257 2019-02-22 16:26:42 a0I1500000HSVMJEA5 Undecided Daniel Santos ds1440@mynsu.nova.edu 8503767878
+finance 2258 2019-02-22 17:03:19 a0I1500000HSVMJEA5 Undecided jesus herrera jesusha96@gmail.com 17867497155
+finance 2259 2019-02-22 18:22:42 a0I1500000HSVMJEA5 Undecided Chifumnaya Nelson nelsonchifumnaya@gmail.com 9013957593
+finance 2260 2019-02-22 18:54:59 a0I1500000HSVMJEA5 Undecided Felix Sanchez fsancheztaino@gmail.com 2018148362
+intlbusiness 36 2019-02-22 23:42:07 a0I1500000HSVMKEA5 MS in International Business Frank Black franknelsonblack@gmail.com 3135663793
+intlbusiness 38 2019-02-23 17:44:35 a0I1500000HSVMKEA5 MS in International Business Brandon Valentin brandonv1304@gmail.com 3477569170
+leadership 1215 2019-02-23 15:42:05 a0I1500000HSVMLEA5 MS in Leadership Vianey Perez vianeyperezgallardo1989@gmail.com 19143962613
+mba 1116 2019-02-22 19:21:17 a0I1500000HSVMEEA5 undecided Ian Flauger ianflauger@icloud.com 9204614215
+mba 1118 2019-02-23 15:18:25 a0I1500000HSVMEEA5 “” Imani Adams imanixiyear@gmail.com 504-3’w
+mha 136 2019-02-22 20:32:27 a0I1500000HO3ZpEAL MS in Health Administration William Roots william.roots4@gmail.com 8044261949
+mha 137 2019-02-22 20:32:57 a0I1500000HO3ZpEAL MS in Health Administration Tanika Townsend NikA598227@gmail.com 2294298994
+sustainable 85 2019-02-22 14:40:18 a0I1C00000JcIAvUAN MS in Sustainable Business Lori Bacich loriibacich@gmail.com 2012891946
+61.32299852371216
+13  entries added to salesforce
+acctax 684 2019-02-27 22:32:01 a0I1500000HSVMMEA5 Master in Taxation Jeff Hollingsworth jhollingsworth6@student.gsu.edu 7702359472
+22.891326904296875
+1  entries added to salesforce
+acctax 684 2019-02-27 22:32:01 a0I1500000HSVMMEA5 Master in Taxation Jeff Hollingsworth jhollingsworth6@student.gsu.edu 7702359472
+21.450656175613403
+1  entries added to salesforce
+acctax 684 2019-02-27 22:32:01 a0I1500000HSVMMEA5 Master in Taxation Jeff Hollingsworth jhollingsworth6@student.gsu.edu 7702359472
+23.747787714004517
+1  entries added to salesforce
+acctax 684 2019-02-27 22:32:01 a0I1500000HSVMMEA5 Master in Taxation Jeff Hollingsworth jhollingsworth6@student.gsu.edu 7702359472
+20.618743658065796
+1  entries added to salesforce
+acctax 684 2019-02-27 22:32:01 a0I1500000HSVMMEA5 Master in Taxation Jeff Hollingsworth jhollingsworth6@student.gsu.edu 7702359472
+23.092399835586548
+1  entries added to salesforce
+acctax 684 2019-02-27 22:32:01 a0I1500000HSVMMEA5 Master in Taxation Jeff Hollingsworth jhollingsworth6@student.gsu.edu 7702359472
+32.96739077568054
+1  entries added to salesforce
+analytics 523 2019-02-24 20:54:52 a0I1500000HSVMIEA5 MS in Business Analytics Mitchell Rothermel mlrothermel17@gmail.com 7173190980
+analytics 523 2019-02-24 20:54:52 a0I1500000HSVMIEA5 MS in Business Analytics Mitchell Rothermel mlrothermel17@gmail.com 7173190980
+finance 2267 2019-02-26 13:50:54 a0I1500000HSVMJEA5 Online MS in Finance lissette ganchalali lis.lita@hotmail.com 0996891950

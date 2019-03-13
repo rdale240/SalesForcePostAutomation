@@ -1,5 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
 from dotenv import load_dotenv
 import datetime
 import os
@@ -25,9 +28,13 @@ import time
 ##REMAINING WORK:
     #COPY DATABASE ENTRIES IN CASE SYSTEM GOES DOWN
     #WRITE TRANSACTIONAL DATA TO SFPATEST DATABASE
+        #COMPLETE
     #WAIT FOR CSS CHANGE WHEN ITEM IS SUBMITTED
+        #UPDATE 2/28/19 Testing with MAY
+            #NOTES:Send UOnline data to alternate table for storage
     #Criteria for Bad Lead:
         #Less than 10 digits in phone number
+        #Last entry is identical
 
 
 #Initialize Performance Data Records
@@ -35,7 +42,7 @@ numSubmissions = 0
 f = open('record.txt', 'a')
 start_time = time.time()
 now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-print(now)
+print(now,f)
 
 
 #Implement .env to protect database information
@@ -57,7 +64,7 @@ STATEPORT=os.getenv("STATEPORT")
 chromedriverLocation = os.getenv("CHROMEDRIVERPATH")
 
 #respective databases
-databases=["acctax","analytics","finance","hemba","intlbusiness","leadership","mba","mha","promba","sustainable"]
+databases=["finance","analytics","acctax","hemba","intlbusiness","leadership","mba","mha","promba","sustainable"]
     #business not entered to salesforce
     #removed "gemba" for testing purposes (phone is not a valid field)
 
@@ -134,8 +141,8 @@ stateCursor.close()
 stateUpdateCursor=stateCnx.cursor() 
 stateUpdate=("UPDATE state SET timestamp="+ '"'+now+'" where ID=1')
 #Execute SQL Query
-stateUpdateCursor.execute(stateUpdate)
-stateCnx.commit()
+#stateUpdateCursor.execute(stateUpdate)
+#stateCnx.commit()
 #************************************
 
 #Open Chrome
@@ -181,7 +188,7 @@ for database in databases:
                 utm_medium=""
             if(utm_campaign==None):
                 utm_campaign=""
-            driver.get(url+'/?utm_source='+utm_source+'&utm_medium='+utm_medium+'&utm_campaign='+utm_campaign) #URL must be custom for source
+            driver.get(url+'?utm_source='+utm_source+'&utm_medium='+utm_medium+'&utm_campaign='+utm_campaign) #URL must be custom for source
             ##########################
 
             #"More Information" Click
@@ -214,7 +221,7 @@ for database in databases:
             #Last Name Input
             lNameInput=driver.find_element_by_name('Last_Name__c')
             last_name=''.join(e for e in last_name if e.isalnum())
-            lNameInput.send_keys(last_name)
+            lNameInput.send_keys("xxServerTest" + last_name)
             #####################################
 
             #Email Input
@@ -228,20 +235,31 @@ for database in databases:
             phoneInput.send_keys(phone)
             ######################################
 
-
+            time.sleep(5)
+            
             #Submit Button Click
             submitButton=driver.find_element_by_name('Submit')
-            #submitButton.click()
+            submitButton.click()
             numSubmissions = numSubmissions + 1
             #TransactionDB
             transactionCursor=transCnx.cursor(buffered=True) 
             transactionQuery=('INSERT INTO transactions (`database`,`first_name`,`last_name`,`email`,`phone`,`utm_source`,`utm_medium`,`utm_campaign`,`program`,`timestamp`) VALUES("' + database + '", "' + first_name + '", "' + last_name + '", "' + email + '", "' + phone + '", "'+ utm_source + '", "' + utm_medium+ '", "' + utm_campaign +'", "' + program + '",CURRENT_TIME())')
             #Execute SQL Query
             transactionCursor.execute(transactionQuery)
+            #commit to DB
             transCnx.commit()
+
+            #Wait until Thank you Message confirms data submission
+            element = WebDriverWait(driver, 10).until(
+            EC.visibility_of_element_located((By.CLASS_NAME, "form-thank-you-message"))
+            )
+            print("Found Thank you message")
+            driver.get("https://google.com")
             print(database, id, time_of_submission, programOption, program, first_name,last_name,email,phone, file=open("record.txt","a"))
+            break
     #Close Cursor
     cursor.close()
+    break
     #Close mySQL Connection after cycling through all DBs
 cnx.close()
 #################################################
@@ -256,15 +274,6 @@ print(numSubmissions," entries added to salesforce", file=open("record.txt","a")
 f.close()
 #End of Program
 
-# #Sample Data
-# firstName='Hello World'
-# firstName=''.join(e for e in firstName if e.isalnum())
-# lastName='Dale%$#@'
-# lastName=''.join(e for e in lastName if e.isalnum())
-# email="someone@miami.edu"
-# phone='5555555555' #no plus but can have parentheses
-# country = "Malawi" #Must have first letter uppercase
-# ################################
 
 
 
