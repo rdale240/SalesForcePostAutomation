@@ -77,7 +77,7 @@ intlbusiness 36 2019-02-22 23:42:07 a0I1500000HSVMKEA5 MS in International Busin
 intlbusiness 38 2019-02-23 17:44:35 a0I1500000HSVMKEA5 MS in International Business Brandon Valentin brandonv1304@gmail.com 3477569170
 leadership 1215 2019-02-23 15:42:05 a0I1500000HSVMLEA5 MS in Leadership Vianey Perez vianeyperezgallardo1989@gmail.com 19143962613
 mba 1116 2019-02-22 19:21:17 a0I1500000HSVMEEA5 undecided Ian Flauger ianflauger@icloud.com 9204614215
-mba 1118 2019-02-23 15:18:25 a0I1500000HSVMEEA5 “” Imani Adams imanixiyear@gmail.com 504-3’w
+mba 1118 2019-02-23 15:18:25 a0I1500000HSVMEEA5 ï¿½ï¿½ Imani Adams imanixiyear@gmail.com 504-3ï¿½w
 mha 136 2019-02-22 20:32:27 a0I1500000HO3ZpEAL MS in Health Administration William Roots william.roots4@gmail.com 8044261949
 mha 137 2019-02-22 20:32:57 a0I1500000HO3ZpEAL MS in Health Administration Tanika Townsend NikA598227@gmail.com 2294298994
 sustainable 85 2019-02-22 14:40:18 a0I1C00000JcIAvUAN MS in Sustainable Business Lori Bacich loriibacich@gmail.com 2012891946
@@ -104,3 +104,1111 @@ acctax 684 2019-02-27 22:32:01 a0I1500000HSVMMEA5 Master in Taxation Jeff Hollin
 analytics 523 2019-02-24 20:54:52 a0I1500000HSVMIEA5 MS in Business Analytics Mitchell Rothermel mlrothermel17@gmail.com 7173190980
 analytics 523 2019-02-24 20:54:52 a0I1500000HSVMIEA5 MS in Business Analytics Mitchell Rothermel mlrothermel17@gmail.com 7173190980
 finance 2267 2019-02-26 13:50:54 a0I1500000HSVMJEA5 Online MS in Finance lissette ganchalali lis.lita@hotmail.com 0996891950
+finance 2267 2019-02-26 13:50:54 a0I1500000HSVMJEA5 Online MS in Finance lissette ganchalali lis.lita@hotmail.com 0996891950
+finance 2267 2019-02-26 13:50:54 a0I1500000HSVMJEA5 Online MS in Finance lissette ganchalali lis.lita@hotmail.com 0996891950
+22.96855139732361
+1  entries added to salesforce
+TEST AT 2019-03-01 15:30:56 on 03/13/19 95 entries in transactionsfinance 2267 2019-02-26 13:50:54 a0I1500000HSVMJEA5 Online MS in Finance lissette ganchalali lis.lita@hotmail.com 0996891950
+TEST AT 2019-03-01 15:30:56 on 03/13/19 97 entries in transactions
+finance 2280 2019-03-02 15:57:16 a0I1500000HSVMJEA5 Daytime MS in Finance Alexandre Yano ayano@student.methodist.edu 9106709793
+finance 2285 2019-03-03 16:27:50 a0I1500000HSVMJEA5 Undecided Rene Marzagao renemarzagao@hotmail.com 6156798045
+finance 2286 2019-03-03 20:26:35 a0I1500000HSVMJEA5 Daytime MS in Finance Thibault Duval tib_duval95@hotmail.com 7866563376
+finance 2303 2019-03-05 23:02:41 a0I1500000HSVMJEA5 Undecided Donovan Monteverdi donovan.monteverdi7@gmail.com 9733499841
+finance 2306 2019-03-06 18:36:22 a0I1500000HSVMJEA5 Undecided YESSIBEL PINTO YESSIBELCAROLINAPINTOPORTILLO@GMAIL.COM 04141667656
+TEST AT 2019-03-01 15:30:56 on 03/13/19 103 entries in transactions
+finance 2280 2019-03-02 15:57:16 a0I1500000HSVMJEA5 Daytime MS in Finance Alexandre Yano ayano@student.methodist.edu 9106709793
+finance 2285 2019-03-03 16:27:50 a0I1500000HSVMJEA5 Undecided Rene Marzagao renemarzagao@hotmail.com 6156798045
+finance 2286 2019-03-03 20:26:35 a0I1500000HSVMJEA5 Daytime MS in Finance Thibault Duval tib_duval95@hotmail.com 7866563376
+finance 2303 2019-03-05 23:02:41 a0I1500000HSVMJEA5 Undecided Donovan Monteverdi donovan.monteverdi7@gmail.com 9733499841
+finance 2306 2019-03-06 18:36:22 a0I1500000HSVMJEA5 Undecided YESSIBEL PINTO YESSIBELCAROLINAPINTOPORTILLO@GMAIL.COM 04141667656
+9.986155271530151
+0  entries added to salesforce
+finance 2280 2019-03-02 15:57:16 a0I1500000HSVMJEA5 Daytime MS in Finance Alexandre Yano ayano@student.methodist.edu 9106709793
+finance 2285 2019-03-03 16:27:50 a0I1500000HSVMJEA5 Undecided Rene Marzagao renemarzagao@hotmail.com 6156798045
+finance 2286 2019-03-03 20:26:35 a0I1500000HSVMJEA5 Daytime MS in Finance Thibault Duval tib_duval95@hotmail.com 7866563376
+finance 2303 2019-03-05 23:02:41 a0I1500000HSVMJEA5 Undecided Donovan Monteverdi donovan.monteverdi7@gmail.com 9733499841
+finance 2306 2019-03-06 18:36:22 a0I1500000HSVMJEA5 Undecided YESSIBEL PINTO YESSIBELCAROLINAPINTOPORTILLO@GMAIL.COM 04141667656
+analytics 553 2019-03-02 16:56:44 a0I1500000HSVMIEA5 MS in Business Analytics Daniel Worth dworth96@gmail.com 9548498860
+analytics 554 2019-03-02 17:38:38 a0I1500000HSVMIEA5 MS in Business Analytics Gino Gavilanes gavilanesgino@gmail.com 593997907525
+analytics 555 2019-03-02 18:20:56 a0I1500000HSVMIEA5 MS in Business Analytics Nelson Garcia nelsonphia@hotmail.com 3212060956
+analytics 557 2019-03-03 19:17:36 a0I1500000HSVMIEA5 MS in Business Analytics Jared Dinowitz jjdinowitz@gmail.com 818-294-1550
+analytics 558 2019-03-03 19:31:52 a0I1500000HSVMIEA5 MS in Business Analytics Miriam Antuna miriama0910@gmail.com 8179879251
+analytics 562 2019-03-04 17:09:53 a0I1500000HSVMIEA5 MS in Business Analytics Whitney Coker wlcoker2003@gmail.com (270)-839-0424
+finance 2280 2019-03-02 15:57:16 a0I1500000HSVMJEA5 Daytime MS in Finance Alexandre Yano ayano@student.methodist.edu 9106709793
+finance 2285 2019-03-03 16:27:50 a0I1500000HSVMJEA5 Undecided Rene Marzagao renemarzagao@hotmail.com 6156798045
+finance 2286 2019-03-03 20:26:35 a0I1500000HSVMJEA5 Daytime MS in Finance Thibault Duval tib_duval95@hotmail.com 7866563376
+finance 2303 2019-03-05 23:02:41 a0I1500000HSVMJEA5 Undecided Donovan Monteverdi donovan.monteverdi7@gmail.com 9733499841
+finance 2306 2019-03-06 18:36:22 a0I1500000HSVMJEA5 Undecided YESSIBEL PINTO YESSIBELCAROLINAPINTOPORTILLO@GMAIL.COM 04141667656
+analytics 553 2019-03-02 16:56:44 a0I1500000HSVMIEA5 MS in Business Analytics Daniel Worth dworth96@gmail.com 9548498860
+analytics 554 2019-03-02 17:38:38 a0I1500000HSVMIEA5 MS in Business Analytics Gino Gavilanes gavilanesgino@gmail.com 593997907525
+analytics 555 2019-03-02 18:20:56 a0I1500000HSVMIEA5 MS in Business Analytics Nelson Garcia nelsonphia@hotmail.com 3212060956
+analytics 557 2019-03-03 19:17:36 a0I1500000HSVMIEA5 MS in Business Analytics Jared Dinowitz jjdinowitz@gmail.com 818-294-1550
+analytics 558 2019-03-03 19:31:52 a0I1500000HSVMIEA5 MS in Business Analytics Miriam Antuna miriama0910@gmail.com 8179879251
+analytics 562 2019-03-04 17:09:53 a0I1500000HSVMIEA5 MS in Business Analytics Whitney Coker wlcoker2003@gmail.com (270)-839-0424
+analytics 563 2019-03-04 17:24:05 a0I1500000HSVMIEA5 MS in Business Analytics erik jackson thompsonboy18@gmail.com 2677765582
+analytics 566 2019-03-05 15:44:39 a0I1500000HSVMIEA5 MS in Business Analytics samantha driggers samantha.driggers2003@gmail.com 8435980508
+analytics 571 2019-03-06 15:50:30 a0I1500000HSVMIEA5 MS in Business Analytics amank verma verma.amank6@gmail.com 7976788200
+analytics 572 2019-03-06 16:11:26 a0I1500000HSVMIEA5 MS in Business Analytics Satish Kumar satishkumar08293@gmail.com 9628163891
+analytics 573 2019-03-06 16:14:39 a0I1500000HSVMIEA5 MS in Business Analytics ganesh sundaresan gsundar4121@gmail.com 8870484164
+hemba 267 2019-03-03 17:18:56 a0I1500000HSVMDEA5 Health Executive MBA Konstantinos KoutelosMDRPh konstantinoskoutelosmd@gmail.com 9178823118
+hemba 268 2019-03-12 16:42:00 a0I1500000HSVMDEA5 Health Executive MBA Kolawole Atandeyi atandeyi@yahoo.com 7135047332
+hemba 269 2019-03-12 22:23:02 a0I1500000HSVMDEA5 Health Executive MBA Quratulain Obaid qobaid@yahoo.com 7863538574
+hemba 272 2019-03-13 16:38:46 a0I1500000HSVMDEA5 Health Executive MBA Quratulain Obaid qobaid@yahoo.com 7863638574
+intlbusiness 59 2019-03-02 17:04:18 a0I1500000HSVMKEA5 MS in International Business Trinity Jackson trinityajackson7@gmail.com 6782469284
+intlbusiness 60 2019-03-02 17:33:14 a0I1500000HSVMKEA5 MS in International Business Javion Davis jbrandondavis131@gmail.com 3146297804
+intlbusiness 61 2019-03-03 23:04:14 a0I1500000HSVMKEA5 MS in International Business Allexis Trent allexis.trent40@gmail.com 2533209696
+intlbusiness 64 2019-03-04 16:55:05 a0I1500000HSVMKEA5 MS in International Business Zaria Flippin zflippin05@gmail.com 14029904902
+intlbusiness 66 2019-03-11 19:08:40 a0I1500000HSVMKEA5 MS in International Business Joseph Moore jmore200315@gmail.com 3307759559
+intlbusiness 70 2019-03-12 19:58:18 a0I1500000HSVMKEA5 MS in International Business Ludmila Nagornii nagornayyya@gmail.com 37377880219
+intlbusiness 71 2019-03-13 22:47:18 a0I1500000HSVMKEA5 MS in International Business Aaliyah Oatman aaliyah.oatmanj@gmail.com 7063818700
+leadership 1229 2019-03-02 16:17:52 a0I1500000HSVMLEA5 MS in Leadership Jaylen Prayer jaylenprayer11@gmail.com 6622991675
+finance 2280 2019-03-02 15:57:16 a0I1500000HSVMJEA5 Daytime MS in Finance Alexandre Yano ayano@student.methodist.edu 9106709793
+finance 2285 2019-03-03 16:27:50 a0I1500000HSVMJEA5 Undecided Rene Marzagao renemarzagao@hotmail.com 6156798045
+finance 2286 2019-03-03 20:26:35 a0I1500000HSVMJEA5 Daytime MS in Finance Thibault Duval tib_duval95@hotmail.com 7866563376
+finance 2303 2019-03-05 23:02:41 a0I1500000HSVMJEA5 Undecided Donovan Monteverdi donovan.monteverdi7@gmail.com 9733499841
+finance 2306 2019-03-06 18:36:22 a0I1500000HSVMJEA5 Undecided YESSIBEL PINTO YESSIBELCAROLINAPINTOPORTILLO@GMAIL.COM 04141667656
+analytics 553 2019-03-02 16:56:44 a0I1500000HSVMIEA5 MS in Business Analytics Daniel Worth dworth96@gmail.com 9548498860
+analytics 554 2019-03-02 17:38:38 a0I1500000HSVMIEA5 MS in Business Analytics Gino Gavilanes gavilanesgino@gmail.com 593997907525
+analytics 555 2019-03-02 18:20:56 a0I1500000HSVMIEA5 MS in Business Analytics Nelson Garcia nelsonphia@hotmail.com 3212060956
+analytics 557 2019-03-03 19:17:36 a0I1500000HSVMIEA5 MS in Business Analytics Jared Dinowitz jjdinowitz@gmail.com 8182941550
+analytics 558 2019-03-03 19:31:52 a0I1500000HSVMIEA5 MS in Business Analytics Miriam Antuna miriama0910@gmail.com 8179879251
+analytics 562 2019-03-04 17:09:53 a0I1500000HSVMIEA5 MS in Business Analytics Whitney Coker wlcoker2003@gmail.com 2708390424
+analytics 563 2019-03-04 17:24:05 a0I1500000HSVMIEA5 MS in Business Analytics erik jackson thompsonboy18@gmail.com 2677765582
+analytics 566 2019-03-05 15:44:39 a0I1500000HSVMIEA5 MS in Business Analytics samantha driggers samantha.driggers2003@gmail.com 8435980508
+analytics 571 2019-03-06 15:50:30 a0I1500000HSVMIEA5 MS in Business Analytics amank verma verma.amank6@gmail.com 7976788200
+analytics 572 2019-03-06 16:11:26 a0I1500000HSVMIEA5 MS in Business Analytics Satish Kumar satishkumar08293@gmail.com 9628163891
+analytics 573 2019-03-06 16:14:39 a0I1500000HSVMIEA5 MS in Business Analytics ganesh sundaresan gsundar4121@gmail.com 8870484164
+hemba 267 2019-03-03 17:18:56 a0I1500000HSVMDEA5 Health Executive MBA Konstantinos KoutelosMDRPh konstantinoskoutelosmd@gmail.com 9178823118
+hemba 268 2019-03-12 16:42:00 a0I1500000HSVMDEA5 Health Executive MBA Kolawole Atandeyi atandeyi@yahoo.com 7135047332
+hemba 269 2019-03-12 22:23:02 a0I1500000HSVMDEA5 Health Executive MBA Quratulain Obaid qobaid@yahoo.com 7863538574
+hemba 272 2019-03-13 16:38:46 a0I1500000HSVMDEA5 Health Executive MBA Quratulain Obaid qobaid@yahoo.com 7863638574
+intlbusiness 59 2019-03-02 17:04:18 a0I1500000HSVMKEA5 MS in International Business Trinity Jackson trinityajackson7@gmail.com 6782469284
+intlbusiness 60 2019-03-02 17:33:14 a0I1500000HSVMKEA5 MS in International Business Javion Davis jbrandondavis131@gmail.com 3146297804
+intlbusiness 61 2019-03-03 23:04:14 a0I1500000HSVMKEA5 MS in International Business Allexis Trent allexis.trent40@gmail.com 2533209696
+intlbusiness 64 2019-03-04 16:55:05 a0I1500000HSVMKEA5 MS in International Business Zaria Flippin zflippin05@gmail.com 14029904902
+intlbusiness 66 2019-03-11 19:08:40 a0I1500000HSVMKEA5 MS in International Business Joseph Moore jmore200315@gmail.com 3307759559
+intlbusiness 70 2019-03-12 19:58:18 a0I1500000HSVMKEA5 MS in International Business Ludmila Nagornii nagornayyya@gmail.com 37377880219
+intlbusiness 71 2019-03-13 22:47:18 a0I1500000HSVMKEA5 MS in International Business Aaliyah Oatman aaliyah.oatmanj@gmail.com 7063818700
+leadership 1229 2019-03-02 16:17:52 a0I1500000HSVMLEA5 MS in Leadership Jaylen Prayer jaylenprayer11@gmail.com 6622991675
+mba 1163 2019-03-04 15:46:56 a0I1500000HSVMEEA5 Miami MBA Raul Salazar raulsebastian1998@gmail.com 50245579904
+mba 1176 2019-03-11 17:05:28 a0I1500000HSVMEEA5 undecided Cameron Godwin cam080801@gmail.com 8509823251
+mba 1179 2019-03-12 17:18:47 a0I1500000HSVMEEA5 undecided Bryce Scudder bryce.scudder@yahoo.com 4053012925
+mba 1180 2019-03-12 20:48:58 a0I1500000HSVMEEA5 Online MBA Narad Harrypersad naradharrypersad@yahoo.com 7862626597
+mba 1183 2019-03-13 15:32:22 a0I1500000HSVMEEA5 undecided test test test@test.com 7862771677
+promba 229 2019-03-03 16:18:29 a0I1500000HSVMHEA5 Professional MBA Nene Yo nenene@gmal.com 9542455249
+promba 230 2019-03-03 16:18:46 a0I1500000HSVMHEA5 Professional MBA Nene Yo nenene@gmal.com 9542455249
+promba 232 2019-03-04 17:34:09 a0I1500000HSVMHEA5 Professional MBA Antonio EspinozaJr artistaj76@gmail.com 17863394548
+sustainable 96 2019-03-04 18:42:51 a0I1C00000JcIAvUAN MS in Sustainable Business Orlandra Dickens odd8@miami.edu 9842895530
+sustainable 97 2019-03-05 15:34:37 a0I1C00000JcIAvUAN MS in Sustainable Business gabriela angeloni gabriela.angeloni@gmail.com 5554991603902
+sustainable 101 2019-03-07 15:34:18 a0I1C00000JcIAvUAN MS in Sustainable Business Courtney Stuber cstuber27@gmail.com 5165282980
+sustainable 102 2019-03-07 17:25:52 a0I1C00000JcIAvUAN MS in Sustainable Business Evan Dils ead1009@sru.edu 7174407351
+sustainable 103 2019-03-07 20:16:46 a0I1C00000JcIAvUAN MS in Sustainable Business Alice Finnerty afinnerty2171@gmail.com 3475220334
+sustainable 104 2019-03-08 17:58:43 a0I1C00000JcIAvUAN MS in Sustainable Business Phil Smith psmith07@gmail.com 9735084281
+sustainable 110 2019-03-11 15:35:45 a0I1C00000JcIAvUAN MS in Sustainable Business Emma Beck emmabeck56@gmail.com 5129224856
+sustainable 112 2019-03-12 16:10:28 a0I1C00000JcIAvUAN MS in Sustainable Business Rikki Vela rikkivela@hotmail.com 8153219110
+432.66265058517456
+44  entries added to salesforce
+9.219908952713013
+0  entries added to salesforce
+finance 2280 2019-03-02 15:57:16 a0I1500000HSVMJEA5 Daytime MS in Finance Alexandre Yano ayano@student.methodist.edu 9106709793
+finance 2285 2019-03-03 16:27:50 a0I1500000HSVMJEA5 Undecided Rene Marzagao renemarzagao@hotmail.com 6156798045
+finance 2286 2019-03-03 20:26:35 a0I1500000HSVMJEA5 Daytime MS in Finance Thibault Duval tib_duval95@hotmail.com 7866563376
+finance 2280 2019-03-02 15:57:16 a0I1500000HSVMJEA5 Daytime MS in Finance Alexandre Yano ayano@student.methodist.edu 9106709793
+finance 2280 2019-03-02 15:57:16 a0I1500000HSVMJEA5 Daytime MS in Finance Alexandre Yano ayano@student.methodist.edu 9106709793
+finance 2285 2019-03-03 16:27:50 a0I1500000HSVMJEA5 Undecided Rene Marzagao renemarzagao@hotmail.com 6156798045
+finance 2286 2019-03-03 20:26:35 a0I1500000HSVMJEA5 Daytime MS in Finance Thibault Duval tib_duval95@hotmail.com 7866563376
+finance 2303 2019-03-05 23:02:41 a0I1500000HSVMJEA5 Undecided Donovan Monteverdi donovan.monteverdi7@gmail.com 9733499841
+finance 2306 2019-03-06 18:36:22 a0I1500000HSVMJEA5 Undecided YESSIBEL PINTO YESSIBELCAROLINAPINTOPORTILLO@GMAIL.COM 04141667656
+finance 2280 2019-03-02 15:57:16 a0I1500000HSVMJEA5 Daytime MS in Finance Alexandre Yano ayano@student.methodist.edu 9106709793
+finance 2424 2019-04-02 19:00:27 a0I1500000HSVMJEA5 Undecided Deonte Solese dsolese1999@gamail.com 4434133708
+finance 2427 2019-04-03 17:40:57 a0I1500000HSVMJEA5 Undecided Bruno Abreu bruno_abreu20@hotmail.com 5531991001804
+finance 2507 2019-04-15 01:04:46 a0I1500000HSVMJEA5 Undecided wellingtonj Pindar wellingtonjpindar@gmail.com 4807337075
+finance 2507 2019-04-15 01:04:46 a0I1500000HSVMJEA5 Undecided wellingtonj Pindar wellingtonjpindar@gmail.com 4807337075
+finance 2507 2019-04-15 01:04:46 a0I1500000HSVMJEA5 Undecided wellingtonj Pindar wellingtonjpindar@gmail.com 4807337075
+finance 2508 2019-04-15 06:42:09 a0I1500000HSVMJEA5 Undecided Archana Vishwakarma archanavishwakrama.2035@gmail.com 7617895092
+finance 2509 2019-04-15 08:54:05 a0I1500000HSVMJEA5 Undecided Keerthana Jaikumar j.keerthana98@gmail.com 8148143341
+finance 2510 2019-04-15 10:25:27 a0I1500000HSVMJEA5 Professional MS in Finance MONIKA REWALE monikarewale57@gmail.com 9819065602
+finance 2511 2019-04-15 11:36:41 a0I1500000HSVMJEA5 Undecided sororchan khapai sororchankristie@gmail.com 9075286833
+finance 2512 2019-04-15 14:26:28 a0I1500000HSVMJEA5 Undecided Alexandre Oliveira xand.br.55@gmail.com 5521986750061
+finance 2513 2019-04-15 15:39:14 a0I1500000HSVMJEA5 Undecided jaden newton jdnewton18@gmail.com 8173767802
+finance 2514 2019-04-15 15:58:14 a0I1500000HSVMJEA5 Online MS in Finance Yanais Guerra yanaisguerradada26@gmail.com 04122169207
+finance 2515 2019-04-15 16:05:38 a0I1500000HSVMJEA5 Online MS in Finance Adolfo Rivas grizzlycruce@gmail.com 04262116076
+finance 2516 2019-04-16 05:07:14 a0I1500000HSVMJEA5 Daytime MS in Finance test test test@test.com 2342342344
+finance 2517 2019-04-16 15:13:58 a0I1500000HSVMJEA5 Undecided SAMRUDDHI GHARAT samruddhig27@gmail.com 9821286446
+analytics 737 2019-04-15 09:03:57 a0I1500000HSVMIEA5 MS in Business Analytics Radhika Kumar radhikaheriot191@gmail.com 9025540953
+analytics 738 2019-04-15 13:07:17 a0I1500000HSVMIEA5 MS in Business Analytics Samantha Haycook samhaycook17@gmail.com 9373134405
+analytics 739 2019-04-15 17:49:15 a0I1500000HSVMIEA5 MS in Business Analytics Maxwell Muhlenkamp muhlenkampmax@gmail.com 5869259735
+analytics 740 2019-04-16 05:06:10 a0I1500000HSVMIEA5 MS in Business Analytics test test test@test.com 2342342344
+acctax 697 2019-04-16 05:02:47 a0I1500000HSVMMEA5 Master in Taxation test test test@test.com 43534534554
+acctax 698 2019-04-16 05:04:16 a0I1500000HSVMMEA5 Master in Taxation test test test@test.com 2342342344
+hemba 302 2019-04-16 03:24:19 a0I1500000HSVMDEA5 Health Executive MBA Rocio Herrera roci0728@gmail.com 7865560000
+hemba 303 2019-04-16 05:02:02 a0I1500000HSVMDEA5 Health Executive MBA test test test@test.com 23423423434
+gemba 652 2019-04-15 10:19:19 a0I1500000HSVMCEA5 Global Executive MBA MárcioLima Nascimento marciolnadv@gmail.com 5579996027772
+gemba 653 2019-04-15 12:11:57 a0I1500000HSVMCEA5 OneMBA Abu David abudavid@gmail.com 19294456772
+gemba 654 2019-04-15 19:32:14 a0I1500000HSVMCEA5 Undecided Lucas Harris lucas.bkharris@gmail.com 9088586437
+gemba 655 2019-04-15 19:54:24 a0I1500000HSVMCEA5 Miami Global Executive MBA Bhav Singh bhavanasingh0405@gmail.com 2012567658
+gemba 656 2019-04-15 19:54:30 a0I1500000HSVMCEA5 Miami Global Executive MBA Bhav Singh bhavanasingh0405@gmail.com 2012567658
+gemba 657 2019-04-15 20:09:29 a0I1500000HSVMCEA5 Undecided Destiny Butler desbutler2001@gmail.com 9176227748
+gemba 658 2019-04-16 04:59:16 a0I1500000HSVMCEA5 Global Executive MBA test test test@test.com 2342342344
+gemba 659 2019-04-16 05:11:35 a0I1500000HSVMCEA5 OneMBA test test test@test.com 2342342344
+gemba 660 2019-04-16 05:15:22 a0I1500000HSVMCEA5 Global Executive MBA test est test@test.com 2342342344
+gemba 661 2019-04-16 08:44:47 a0I1500000HSVMCEA5 Undecided Jonathan Wu jonathan.wu@wellsfargo.com 7045020046
+gemba 662 2019-04-16 12:44:51 a0I1500000HSVMCEA5 Undecided Brandon Heaps bheaps2@gmail.com 4438662334
+gemba 663 2019-04-16 14:09:39 a0I1500000HSVMCEA5 Undecided Abhishek Savalia Abhisheksavalia300@gmail.com 2012535117
+gemba 664 2019-04-16 15:39:12 a0I1500000HSVMCEA5 Undecided Bruno Divardin bruno.dviardin@hotmail.com 5541995030034
+gemba 665 2019-04-16 17:45:31 a0I1500000HSVMCEA5 Undecided Micayla White micaylarwhite@gmail.com 7816988625
+gemba 666 2019-04-16 18:51:26 a0I1500000HSVMCEA5 Global Executive MBA Marcelo Torres mtorrestrujillo@gmail.com 56982177064
+intlbusiness 120 2019-04-15 12:53:38 a0I1500000HSVMKEA5 MS in International Business Bryson Anthony bxa.universe@gmail.com 6788659495
+intlbusiness 121 2019-04-16 05:08:42 a0I1500000HSVMKEA5 MS in International Business test test test@test.com 2342342344
+intlbusiness 122 2019-04-16 14:17:13 a0I1500000HSVMKEA5 MS in International Business Chevis Gillespie clemsonfangillespje@gmail.com 8649813675
+leadership 1274 2019-04-15 11:19:15 a0I1500000HSVMLEA5 MS in Leadership Abu David abudavid@gmail.com 13226789902
+leadership 1275 2019-04-15 11:33:07 a0I1500000HSVMLEA5 MS in Leadership Abu David abudavid@gmail.com 19294476213
+leadership 1276 2019-04-16 03:18:11 a0I1500000HSVMLEA5 MS in Leadership Delisha Alexander delishaalexander01@gmail.com 6015432916
+leadership 1277 2019-04-16 05:07:51 a0I1500000HSVMLEA5 MS in Leadership test test test@test.com 2342342344
+leadership 1278 2019-04-16 18:35:22 a0I1500000HSVMLEA5 MS in Leadership Cynthia Reyes ccrlemondrop@gmail.com 8308340525
+mba 1267 2019-04-15 01:39:55 a0I1500000HSVMEEA5 Miami MBA Antony Chavez antonychavezcos@gmail.com 8433537511
+mba 1268 2019-04-15 03:48:04 a0I1500000HSVMEEA5 Miami MBA Isabella Arias 106207@epps.org 8622209158
+mba 1269 2019-04-15 14:27:40 a0I1500000HSVMEEA5 Miami MBA Denisse Sierra valentinatoala21@gmail.com 6199909575
+mba 1270 2019-04-15 19:48:55 a0I1500000HSVMEEA5 Miami MBA Isabella Acquaviva akadisabella@gmail.com 8703506138
+mba 1271 2019-04-16 04:56:38 a0I1500000HSVMEEA5 Miami MBA test test test@test.com 2342342344
+mha 158 2019-04-16 05:04:56 a0I1500000HO3ZpEAL MS in Health Administration test test test@test.com 2342342344
+promba 261 2019-04-16 05:09:25 a0I1500000HSVMHEA5 Professional MBA test test test@test.com 234242344
+sustainable 161 2019-04-15 16:59:32 a0I1C00000JcIAvUAN MS in Sustainable Business Randy Poling rjay.poling@gmail.com 8505161729
+sustainable 162 2019-04-16 02:04:36 a0I1C00000JcIAvUAN MS in Sustainable Business Eman Elgouz eman.elgouz@gmail.com 2016613347
+764.4105713367462
+51  entries added to salesforce
+1074.5268671512604
+51  entries added to salesforce
+1377.369559764862
+51  entries added to salesforce
+1674.8883938789368
+51  entries added to salesforce
+1974.686163187027
+51  entries added to salesforce
+finance 2507 2019-04-15 01:04:46 a0I1500000HSVMJEA5 Undecided wellingtonj Pindar wellingtonjpindar@gmail.com 4807337075
+finance 2508 2019-04-15 06:42:09 a0I1500000HSVMJEA5 Undecided Archana Vishwakarma archanavishwakrama.2035@gmail.com 7617895092
+finance 2509 2019-04-15 08:54:05 a0I1500000HSVMJEA5 Undecided Keerthana Jaikumar j.keerthana98@gmail.com 8148143341
+finance 2510 2019-04-15 10:25:27 a0I1500000HSVMJEA5 Professional MS in Finance MONIKA REWALE monikarewale57@gmail.com 9819065602
+finance 2507 2019-04-15 01:04:46 a0I1500000HSVMJEA5 Undecided wellingtonj Pindar wellingtonjpindar@gmail.com 4807337075
+finance 2508 2019-04-15 06:42:09 a0I1500000HSVMJEA5 Undecided Archana Vishwakarma archanavishwakrama.2035@gmail.com 7617895092
+finance 2509 2019-04-15 08:54:05 a0I1500000HSVMJEA5 Undecided Keerthana Jaikumar j.keerthana98@gmail.com 8148143341
+finance 2510 2019-04-15 10:25:27 a0I1500000HSVMJEA5 Professional MS in Finance MONIKA REWALE monikarewale57@gmail.com 9819065602
+finance 2511 2019-04-15 11:36:41 a0I1500000HSVMJEA5 Undecided sororchan khapai sororchankristie@gmail.com 9075286833
+finance 2512 2019-04-15 14:26:28 a0I1500000HSVMJEA5 Undecided Alexandre Oliveira xand.br.55@gmail.com 5521986750061
+finance 2513 2019-04-15 15:39:14 a0I1500000HSVMJEA5 Undecided jaden newton jdnewton18@gmail.com 8173767802
+finance 2514 2019-04-15 15:58:14 a0I1500000HSVMJEA5 Online MS in Finance Yanais Guerra yanaisguerradada26@gmail.com 04122169207
+finance 2515 2019-04-15 16:05:38 a0I1500000HSVMJEA5 Online MS in Finance Adolfo Rivas grizzlycruce@gmail.com 04262116076
+finance 2516 2019-04-16 05:07:14 a0I1500000HSVMJEA5 Daytime MS in Finance test test test@test.com 2342342344
+finance 2517 2019-04-16 15:13:58 a0I1500000HSVMJEA5 Undecided SAMRUDDHI GHARAT samruddhig27@gmail.com 9821286446
+analytics 737 2019-04-15 09:03:57 a0I1500000HSVMIEA5 MS in Business Analytics Radhika Kumar radhikaheriot191@gmail.com 9025540953
+analytics 738 2019-04-15 13:07:17 a0I1500000HSVMIEA5 MS in Business Analytics Samantha Haycook samhaycook17@gmail.com 9373134405
+analytics 739 2019-04-15 17:49:15 a0I1500000HSVMIEA5 MS in Business Analytics Maxwell Muhlenkamp muhlenkampmax@gmail.com 5869259735
+analytics 740 2019-04-16 05:06:10 a0I1500000HSVMIEA5 MS in Business Analytics test test test@test.com 2342342344
+acctax 697 2019-04-16 05:02:47 a0I1500000HSVMMEA5 Master in Taxation test test test@test.com 43534534554
+acctax 698 2019-04-16 05:04:16 a0I1500000HSVMMEA5 Master in Taxation test test test@test.com 2342342344
+hemba 302 2019-04-16 03:24:19 a0I1500000HSVMDEA5 Health Executive MBA Rocio Herrera roci0728@gmail.com 7865560000
+hemba 303 2019-04-16 05:02:02 a0I1500000HSVMDEA5 Health Executive MBA test test test@test.com 23423423434
+gemba 652 2019-04-15 10:19:19 a0I1500000HSVMCEA5 Global Executive MBA MárcioLima Nascimento marciolnadv@gmail.com 5579996027772
+gemba 653 2019-04-15 12:11:57 a0I1500000HSVMCEA5 OneMBA Abu David abudavid@gmail.com 19294456772
+gemba 654 2019-04-15 19:32:14 a0I1500000HSVMCEA5 Undecided Lucas Harris lucas.bkharris@gmail.com 9088586437
+gemba 655 2019-04-15 19:54:24 a0I1500000HSVMCEA5 Miami Global Executive MBA Bhav Singh bhavanasingh0405@gmail.com 2012567658
+gemba 656 2019-04-15 19:54:30 a0I1500000HSVMCEA5 Miami Global Executive MBA Bhav Singh bhavanasingh0405@gmail.com 2012567658
+gemba 657 2019-04-15 20:09:29 a0I1500000HSVMCEA5 Undecided Destiny Butler desbutler2001@gmail.com 9176227748
+gemba 658 2019-04-16 04:59:16 a0I1500000HSVMCEA5 Global Executive MBA test test test@test.com 2342342344
+gemba 659 2019-04-16 05:11:35 a0I1500000HSVMCEA5 OneMBA test test test@test.com 2342342344
+gemba 660 2019-04-16 05:15:22 a0I1500000HSVMCEA5 Global Executive MBA test est test@test.com 2342342344
+gemba 661 2019-04-16 08:44:47 a0I1500000HSVMCEA5 Undecided Jonathan Wu jonathan.wu@wellsfargo.com 7045020046
+gemba 662 2019-04-16 12:44:51 a0I1500000HSVMCEA5 Undecided Brandon Heaps bheaps2@gmail.com 4438662334
+gemba 663 2019-04-16 14:09:39 a0I1500000HSVMCEA5 Undecided Abhishek Savalia Abhisheksavalia300@gmail.com 2012535117
+gemba 664 2019-04-16 15:39:12 a0I1500000HSVMCEA5 Undecided Bruno Divardin bruno.dviardin@hotmail.com 5541995030034
+gemba 665 2019-04-16 17:45:31 a0I1500000HSVMCEA5 Undecided Micayla White micaylarwhite@gmail.com 7816988625
+gemba 666 2019-04-16 18:51:26 a0I1500000HSVMCEA5 Global Executive MBA Marcelo Torres mtorrestrujillo@gmail.com 56982177064
+intlbusiness 120 2019-04-15 12:53:38 a0I1500000HSVMKEA5 MS in International Business Bryson Anthony bxa.universe@gmail.com 6788659495
+intlbusiness 121 2019-04-16 05:08:42 a0I1500000HSVMKEA5 MS in International Business test test test@test.com 2342342344
+intlbusiness 122 2019-04-16 14:17:13 a0I1500000HSVMKEA5 MS in International Business Chevis Gillespie clemsonfangillespje@gmail.com 8649813675
+leadership 1274 2019-04-15 11:19:15 a0I1500000HSVMLEA5 MS in Leadership Abu David abudavid@gmail.com 13226789902
+leadership 1275 2019-04-15 11:33:07 a0I1500000HSVMLEA5 MS in Leadership Abu David abudavid@gmail.com 19294476213
+leadership 1276 2019-04-16 03:18:11 a0I1500000HSVMLEA5 MS in Leadership Delisha Alexander delishaalexander01@gmail.com 6015432916
+leadership 1277 2019-04-16 05:07:51 a0I1500000HSVMLEA5 MS in Leadership test test test@test.com 2342342344
+leadership 1278 2019-04-16 18:35:22 a0I1500000HSVMLEA5 MS in Leadership Cynthia Reyes ccrlemondrop@gmail.com 8308340525
+mba 1267 2019-04-15 01:39:55 a0I1500000HSVMEEA5 Miami MBA Antony Chavez antonychavezcos@gmail.com 8433537511
+mba 1268 2019-04-15 03:48:04 a0I1500000HSVMEEA5 Miami MBA Isabella Arias 106207@epps.org 8622209158
+mba 1269 2019-04-15 14:27:40 a0I1500000HSVMEEA5 Miami MBA Denisse Sierra valentinatoala21@gmail.com 6199909575
+mba 1270 2019-04-15 19:48:55 a0I1500000HSVMEEA5 Miami MBA Isabella Acquaviva akadisabella@gmail.com 8703506138
+mba 1271 2019-04-16 04:56:38 a0I1500000HSVMEEA5 Miami MBA test test test@test.com 2342342344
+mha 158 2019-04-16 05:04:56 a0I1500000HO3ZpEAL MS in Health Administration test test test@test.com 2342342344
+promba 261 2019-04-16 05:09:25 a0I1500000HSVMHEA5 Professional MBA test test test@test.com 234242344
+sustainable 161 2019-04-15 16:59:32 a0I1C00000JcIAvUAN MS in Sustainable Business Randy Poling rjay.poling@gmail.com 8505161729
+sustainable 162 2019-04-16 02:04:36 a0I1C00000JcIAvUAN MS in Sustainable Business Eman Elgouz eman.elgouz@gmail.com 2016613347
+512.7239882946014
+51  entries added to salesforce
+828.2556705474854
+51  entries added to salesforce
+1128.1787014007568
+51  entries added to salesforce
+1425.9629838466644
+51  entries added to salesforce
+1725.9438209533691
+51  entries added to salesforce
+2025.8296566009521
+51  entries added to salesforce
+2334.2270481586456
+51  entries added to salesforce
+2633.3302805423737
+51  entries added to salesforce
+2935.730139732361
+51  entries added to salesforce
+3244.801974773407
+51  entries added to salesforce
+3535.1052253246307
+51  entries added to salesforce
+3836.076226711273
+51  entries added to salesforce
+4139.63583445549
+51  entries added to salesforce
+4435.074020862579
+51  entries added to salesforce
+4734.649143218994
+51  entries added to salesforce
+5052.889580965042
+51  entries added to salesforce
+5334.330273866653
+51  entries added to salesforce
+5635.114859580994
+51  entries added to salesforce
+5939.9757606983185
+51  entries added to salesforce
+6233.967956542969
+51  entries added to salesforce
+6535.312293291092
+51  entries added to salesforce
+6837.2106919288635
+51  entries added to salesforce
+7134.435227632523
+51  entries added to salesforce
+7435.080584287643
+51  entries added to salesforce
+7737.161926746368
+51  entries added to salesforce
+8036.481214284897
+51  entries added to salesforce
+8336.250175237656
+51  entries added to salesforce
+8640.688603878021
+51  entries added to salesforce
+8936.213866949081
+51  entries added to salesforce
+9235.826013088226
+51  entries added to salesforce
+9544.029960632324
+51  entries added to salesforce
+9834.576708316803
+51  entries added to salesforce
+10134.126395702362
+51  entries added to salesforce
+10441.575950860977
+51  entries added to salesforce
+10734.373116493225
+51  entries added to salesforce
+11035.699160575867
+51  entries added to salesforce
+11341.497714996338
+51  entries added to salesforce
+11635.696739912033
+51  entries added to salesforce
+11934.663148880005
+51  entries added to salesforce
+12241.450055360794
+51  entries added to salesforce
+12535.875926971436
+51  entries added to salesforce
+12833.83973121643
+51  entries added to salesforce
+13142.178979635239
+51  entries added to salesforce
+13434.62928056717
+51  entries added to salesforce
+13735.595051527023
+51  entries added to salesforce
+14040.85071849823
+51  entries added to salesforce
+14335.204948186874
+51  entries added to salesforce
+14635.288669586182
+51  entries added to salesforce
+14941.181953191757
+51  entries added to salesforce
+15236.146528959274
+51  entries added to salesforce
+15534.508799791336
+51  entries added to salesforce
+15874.827737569809
+51  entries added to salesforce
+16138.174882411957
+51  entries added to salesforce
+16434.979922533035
+51  entries added to salesforce
+16741.727512836456
+51  entries added to salesforce
+17035.313163757324
+51  entries added to salesforce
+17335.345379590988
+51  entries added to salesforce
+17640.77732872963
+51  entries added to salesforce
+17934.92912220955
+51  entries added to salesforce
+18235.890712976456
+51  entries added to salesforce
+18541.032784938812
+51  entries added to salesforce
+18834.64097428322
+51  entries added to salesforce
+19135.878977775574
+51  entries added to salesforce
+19440.899068832397
+51  entries added to salesforce
+19736.19493484497
+51  entries added to salesforce
+20034.992227077484
+51  entries added to salesforce
+20337.799044132233
+51  entries added to salesforce
+20634.052662611008
+51  entries added to salesforce
+20935.94255232811
+51  entries added to salesforce
+21241.516300201416
+51  entries added to salesforce
+21535.65245628357
+51  entries added to salesforce
+21835.92397594452
+51  entries added to salesforce
+22143.279081106186
+51  entries added to salesforce
+22434.381630182266
+51  entries added to salesforce
+22736.434946775436
+51  entries added to salesforce
+23041.621628522873
+51  entries added to salesforce
+29635.883833169937
+51  entries added to salesforce
+29934.925450325012
+51  entries added to salesforce
+30242.941789388657
+51  entries added to salesforce
+30534.933404684067
+51  entries added to salesforce
+30836.739244937897
+51  entries added to salesforce
+31142.876760721207
+51  entries added to salesforce
+31436.55874633789
+51  entries added to salesforce
+31736.77118086815
+51  entries added to salesforce
+32043.280200958252
+51  entries added to salesforce
+32336.770087480545
+51  entries added to salesforce
+32638.0135409832
+51  entries added to salesforce
+32975.60064744949
+51  entries added to salesforce
+33243.904475688934
+51  entries added to salesforce
+33538.818103551865
+51  entries added to salesforce
+33844.09737467766
+51  entries added to salesforce
+34139.20125770569
+51  entries added to salesforce
+34438.285858392715
+51  entries added to salesforce
+34744.61271858215
+51  entries added to salesforce
+35039.34795284271
+51  entries added to salesforce
+35339.025349378586
+51  entries added to salesforce
+35645.13926911354
+51  entries added to salesforce
+35938.95613718033
+51  entries added to salesforce
+36239.457237005234
+51  entries added to salesforce
+36545.230618715286
+51  entries added to salesforce
+36838.315088033676
+51  entries added to salesforce
+37138.98025679588
+51  entries added to salesforce
+37445.84904885292
+51  entries added to salesforce
+37738.41834998131
+51  entries added to salesforce
+38039.724340200424
+51  entries added to salesforce
+38346.131145238876
+51  entries added to salesforce
+38639.96217870712
+51  entries added to salesforce
+38940.4183652401
+51  entries added to salesforce
+39246.98248839378
+51  entries added to salesforce
+39540.05270910263
+51  entries added to salesforce
+39840.17491197586
+51  entries added to salesforce
+40142.683994054794
+51  entries added to salesforce
+40440.968983888626
+51  entries added to salesforce
+40741.13425683975
+51  entries added to salesforce
+41046.91680884361
+51  entries added to salesforce
+41340.189413785934
+51  entries added to salesforce
+41640.93645167351
+51  entries added to salesforce
+41947.648720026016
+51  entries added to salesforce
+42241.085355997086
+51  entries added to salesforce
+42541.13663506508
+51  entries added to salesforce
+42847.542174100876
+51  entries added to salesforce
+43141.64282941818
+51  entries added to salesforce
+43442.436873435974
+51  entries added to salesforce
+43776.993094205856
+51  entries added to salesforce
+44041.941729307175
+51  entries added to salesforce
+44342.498581171036
+51  entries added to salesforce
+44648.19927382469
+51  entries added to salesforce
+44942.51071333885
+51  entries added to salesforce
+45241.9982984066
+51  entries added to salesforce
+45548.15906667709
+51  entries added to salesforce
+45842.68682265282
+51  entries added to salesforce
+46142.01562333107
+51  entries added to salesforce
+46449.73079609871
+51  entries added to salesforce
+46743.42741060257
+51  entries added to salesforce
+47043.08173704147
+51  entries added to salesforce
+47349.245688438416
+51  entries added to salesforce
+47643.0041077137
+51  entries added to salesforce
+47943.047401189804
+51  entries added to salesforce
+48251.38265752792
+51  entries added to salesforce
+48543.774730443954
+51  entries added to salesforce
+48843.50935482979
+51  entries added to salesforce
+49145.992230176926
+51  entries added to salesforce
+49443.26304244995
+51  entries added to salesforce
+49743.67459201813
+51  entries added to salesforce
+50050.17935633659
+51  entries added to salesforce
+50344.000261068344
+51  entries added to salesforce
+50644.23226881027
+51  entries added to salesforce
+50950.30985355377
+51  entries added to salesforce
+51244.66976714134
+51  entries added to salesforce
+51544.871077775955
+51  entries added to salesforce
+51850.93668055534
+51  entries added to salesforce
+58444.51857018471
+51  entries added to salesforce
+58745.05214047432
+51  entries added to salesforce
+59051.79379916191
+51  entries added to salesforce
+59345.9839155674
+51  entries added to salesforce
+59645.876613140106
+51  entries added to salesforce
+59952.67537307739
+51  entries added to salesforce
+60245.83741021156
+51  entries added to salesforce
+60547.08438253403
+51  entries added to salesforce
+60885.21402716637
+51  entries added to salesforce
+61145.51729273796
+51  entries added to salesforce
+61446.72004508972
+51  entries added to salesforce
+61752.11351108551
+51  entries added to salesforce
+62047.25933384895
+51  entries added to salesforce
+62345.95225048065
+51  entries added to salesforce
+62653.735758543015
+51  entries added to salesforce
+62946.21066784859
+51  entries added to salesforce
+63247.00647354126
+51  entries added to salesforce
+63553.69669127464
+51  entries added to salesforce
+63847.429307460785
+51  entries added to salesforce
+64146.75788187981
+51  entries added to salesforce
+64449.67371630669
+51  entries added to salesforce
+64748.11803627014
+51  entries added to salesforce
+65047.439571619034
+51  entries added to salesforce
+65354.38229775429
+51  entries added to salesforce
+65648.70647668839
+51  entries added to salesforce
+65948.2767522335
+51  entries added to salesforce
+66255.16253519058
+51  entries added to salesforce
+66547.1373796463
+51  entries added to salesforce
+66848.02765870094
+51  entries added to salesforce
+67155.83941984177
+51  entries added to salesforce
+67448.6742670536
+51  entries added to salesforce
+67748.77910733223
+51  entries added to salesforce
+68055.45557904243
+51  entries added to salesforce
+68349.7668993473
+51  entries added to salesforce
+68649.73535394669
+51  entries added to salesforce
+68956.10000324249
+51  entries added to salesforce
+69249.54416108131
+51  entries added to salesforce
+69550.04582285881
+51  entries added to salesforce
+69856.54922676086
+51  entries added to salesforce
+70150.41278767586
+51  entries added to salesforce
+70450.04262542725
+51  entries added to salesforce
+70756.40858006477
+51  entries added to salesforce
+71050.202252388
+51  entries added to salesforce
+71349.92514228821
+51  entries added to salesforce
+71691.19346499443
+51  entries added to salesforce
+71950.9129474163
+51  entries added to salesforce
+72250.73443746567
+51  entries added to salesforce
+72557.39389181137
+51  entries added to salesforce
+72849.44083714485
+51  entries added to salesforce
+73150.87103676796
+51  entries added to salesforce
+73458.24211478233
+51  entries added to salesforce
+73750.97106766701
+51  entries added to salesforce
+74050.71146583557
+51  entries added to salesforce
+74357.47266602516
+51  entries added to salesforce
+74651.64013838768
+51  entries added to salesforce
+74950.38080906868
+51  entries added to salesforce
+75258.98855304718
+51  entries added to salesforce
+75552.69757795334
+51  entries added to salesforce
+75852.1698820591
+51  entries added to salesforce
+76158.58870792389
+51  entries added to salesforce
+76452.1836950779
+51  entries added to salesforce
+76754.89134907722
+51  entries added to salesforce
+77054.66944766045
+51  entries added to salesforce
+77352.77590894699
+51  entries added to salesforce
+77653.02675795555
+51  entries added to salesforce
+77961.3475856781
+51  entries added to salesforce
+78253.54270792007
+51  entries added to salesforce
+78554.11523747444
+51  entries added to salesforce
+78859.42176151276
+51  entries added to salesforce
+79153.75738120079
+51  entries added to salesforce
+79454.67269587517
+51  entries added to salesforce
+79759.75171041489
+51  entries added to salesforce
+80053.77716326714
+51  entries added to salesforce
+80353.70884299278
+51  entries added to salesforce
+80659.62150621414
+51  entries added to salesforce
+87254.36442756653
+51  entries added to salesforce
+87554.25314450264
+51  entries added to salesforce
+87857.23992323875
+51  entries added to salesforce
+88155.04798460007
+51  entries added to salesforce
+88455.52787661552
+51  entries added to salesforce
+88793.9474542141
+51  entries added to salesforce
+89054.9999923706
+51  entries added to salesforce
+89354.26495337486
+51  entries added to salesforce
+89683.40166378021
+51  entries added to salesforce
+89955.80714964867
+51  entries added to salesforce
+90254.88126540184
+51  entries added to salesforce
+90561.9407877922
+51  entries added to salesforce
+90856.02324962616
+51  entries added to salesforce
+91155.20842957497
+51  entries added to salesforce
+91461.7298784256
+51  entries added to salesforce
+91755.39615011215
+51  entries added to salesforce
+92056.52703356743
+51  entries added to salesforce
+92362.44340014458
+51  entries added to salesforce
+92655.92078185081
+51  entries added to salesforce
+92957.1376709938
+51  entries added to salesforce
+93262.79499316216
+51  entries added to salesforce
+93557.53142619133
+51  entries added to salesforce
+93856.08587670326
+51  entries added to salesforce
+94164.75015377998
+51  entries added to salesforce
+94458.29503154755
+51  entries added to salesforce
+94757.20239686966
+51  entries added to salesforce
+95063.4414153099
+51  entries added to salesforce
+95357.73013496399
+51  entries added to salesforce
+95658.779556036
+51  entries added to salesforce
+95965.73545527458
+51  entries added to salesforce
+96257.70232582092
+51  entries added to salesforce
+96557.76445031166
+51  entries added to salesforce
+96864.24339532852
+51  entries added to salesforce
+97156.51869893074
+51  entries added to salesforce
+97458.83955383301
+51  entries added to salesforce
+97764.75765347481
+51  entries added to salesforce
+98058.99811029434
+51  entries added to salesforce
+98358.40901517868
+51  entries added to salesforce
+98665.05656456947
+51  entries added to salesforce
+98958.82197570801
+51  entries added to salesforce
+99258.25958585739
+51  entries added to salesforce
+99560.55172157288
+51  entries added to salesforce
+99860.19381093979
+51  entries added to salesforce
+100159.24120402336
+51  entries added to salesforce
+100499.27633166313
+51  entries added to salesforce
+100759.14447188377
+51  entries added to salesforce
+101059.86334466934
+51  entries added to salesforce
+101365.723995924
+51  entries added to salesforce
+101658.17677259445
+51  entries added to salesforce
+101960.33366441727
+51  entries added to salesforce
+102266.73632502556
+51  entries added to salesforce
+102561.01481294632
+51  entries added to salesforce
+102859.54349780083
+51  entries added to salesforce
+103162.08964776993
+51  entries added to salesforce
+103460.68876361847
+51  entries added to salesforce
+103760.92421913147
+51  entries added to salesforce
+104066.9559636116
+51  entries added to salesforce
+104359.92013955116
+51  entries added to salesforce
+104660.60792732239
+51  entries added to salesforce
+104966.92223119736
+51  entries added to salesforce
+105261.10652208328
+51  entries added to salesforce
+105561.2622654438
+51  entries added to salesforce
+105868.01321530342
+51  entries added to salesforce
+106161.63027715683
+51  entries added to salesforce
+106462.40611958504
+51  entries added to salesforce
+106767.80585122108
+51  entries added to salesforce
+107062.06913352013
+51  entries added to salesforce
+107361.63200521469
+51  entries added to salesforce
+107668.54950094223
+51  entries added to salesforce
+107961.85260295868
+51  entries added to salesforce
+108261.91996955872
+51  entries added to salesforce
+108568.84115028381
+51  entries added to salesforce
+108863.3780298233
+51  entries added to salesforce
+109162.23717999458
+51  entries added to salesforce
+109469.72488069534
+51  entries added to salesforce
+116064.65615797043
+51  entries added to salesforce
+116364.40161204338
+51  entries added to salesforce
+116665.15150880814
+51  entries added to salesforce
+116963.14919137955
+51  entries added to salesforce
+117263.58564853668
+51  entries added to salesforce
+117601.99485206604
+51  entries added to salesforce
+117862.94794106483
+51  entries added to salesforce
+118163.85276222229
+51  entries added to salesforce
+118469.75882148743
+51  entries added to salesforce
+118764.20786976814
+51  entries added to salesforce
+119064.66693401337
+51  entries added to salesforce
+119370.33493971825
+51  entries added to salesforce
+119668.537733078
+51  entries added to salesforce
+119964.43805909157
+51  entries added to salesforce
+120269.81021213531
+51  entries added to salesforce
+120564.83204269409
+51  entries added to salesforce
+120862.35133361816
+51  entries added to salesforce
+121170.47909998894
+51  entries added to salesforce
+121463.50048971176
+51  entries added to salesforce
+122064.34061717987
+51  entries added to salesforce
+122371.37713027
+51  entries added to salesforce
+122665.15300559998
+51  entries added to salesforce
+122964.87060427666
+51  entries added to salesforce
+123271.99781942368
+51  entries added to salesforce
+123566.27562427521
+51  entries added to salesforce
+123866.78346014023
+51  entries added to salesforce
+124173.03006982803
+51  entries added to salesforce
+124465.79445767403
+51  entries added to salesforce
+124766.45740246773
+51  entries added to salesforce
+125071.55341029167
+51  entries added to salesforce
+125365.39751672745
+51  entries added to salesforce
+125666.58315849304
+51  entries added to salesforce
+125973.90146446228
+51  entries added to salesforce
+126266.85993862152
+51  entries added to salesforce
+126565.77236127853
+51  entries added to salesforce
+126872.69212937355
+51  entries added to salesforce
+127166.98994231224
+51  entries added to salesforce
+127466.87116241455
+51  entries added to salesforce
+127773.75704598427
+51  entries added to salesforce
+128069.27477264404
+51  entries added to salesforce
+128367.99319219589
+51  entries added to salesforce
+128707.1718878746
+51  entries added to salesforce
+128966.88673067093
+51  entries added to salesforce
+129266.54125070572
+51  entries added to salesforce
+129575.17512726784
+51  entries added to salesforce
+129867.87568688393
+51  entries added to salesforce
+130169.15952420235
+51  entries added to salesforce
+130473.97581410408
+51  entries added to salesforce
+130770.46157002449
+51  entries added to salesforce
+131068.65944480896
+51  entries added to salesforce
+131375.33874058723
+51  entries added to salesforce
+131669.14663171768
+51  entries added to salesforce
+131968.2538895607
+51  entries added to salesforce
+132276.1912703514
+51  entries added to salesforce
+132569.6655871868
+51  entries added to salesforce
+132868.5195736885
+51  entries added to salesforce
+133175.76752901077
+51  entries added to salesforce
+133469.19669032097
+51  entries added to salesforce
+133770.74607682228
+51  entries added to salesforce
+134075.32941389084
+51  entries added to salesforce
+134369.74304509163
+51  entries added to salesforce
+134669.88421058655
+51  entries added to salesforce
+134977.10062766075
+51  entries added to salesforce
+135270.26122951508
+51  entries added to salesforce
+135570.15866923332
+51  entries added to salesforce
+135877.86015820503
+51  entries added to salesforce
+136169.42199516296
+51  entries added to salesforce
+136470.8890926838
+51  entries added to salesforce
+136776.9234867096
+51  entries added to salesforce
+137069.82575154305
+51  entries added to salesforce
+137370.7772819996
+51  entries added to salesforce
+137676.6854057312
+51  entries added to salesforce
+137970.81246232986
+51  entries added to salesforce
+138270.98776960373
+51  entries added to salesforce
+138577.2808327675
+51  entries added to salesforce
+144871.5565495491
+51  entries added to salesforce
+145173.33275008202
+51  entries added to salesforce
+145511.9787671566
+51  entries added to salesforce
+145772.34579396248
+51  entries added to salesforce
+146072.4960746765
+51  entries added to salesforce
+146377.7647690773
+51  entries added to salesforce
+146674.38579297066
+51  entries added to salesforce
+146972.4488503933
+51  entries added to salesforce
+147279.59206342697
+51  entries added to salesforce
+147573.2727587223
+51  entries added to salesforce
+147873.21282458305
+51  entries added to salesforce
+148179.64764237404
+51  entries added to salesforce
+148474.20404529572
+51  entries added to salesforce
+148774.22760796547
+51  entries added to salesforce
+149080.07189249992
+51  entries added to salesforce
+149372.486287117
+51  entries added to salesforce
+149673.4987077713
+51  entries added to salesforce
+149980.250446558
+51  entries added to salesforce
+150273.97606039047
+51  entries added to salesforce
+150873.74730920792
+51  entries added to salesforce
+151181.12731957436
+51  entries added to salesforce
+151474.1276807785
+51  entries added to salesforce
+151778.6541030407
+51  entries added to salesforce
+152080.58260798454
+51  entries added to salesforce
+152375.21146798134
+51  entries added to salesforce
+152675.82913208008
+51  entries added to salesforce
+152977.11620163918
+51  entries added to salesforce
+153273.44208693504
+51  entries added to salesforce
+153575.16892814636
+51  entries added to salesforce
+153881.96254825592
+51  entries added to salesforce
+154175.60332083702
+51  entries added to salesforce
+154476.122256279
+51  entries added to salesforce
+154781.97540831566
+51  entries added to salesforce
+155076.60737729073
+51  entries added to salesforce
+155376.13729310036
+51  entries added to salesforce
+155684.06307649612
+51  entries added to salesforce
+155976.65332126617
+51  entries added to salesforce
+156277.4755909443
+51  entries added to salesforce
+156618.0819413662
+51  entries added to salesforce
+156876.9050374031
+51  entries added to salesforce
+157177.86477279663
+51  entries added to salesforce
+157484.36146235466
+51  entries added to salesforce
+157778.61462664604
+51  entries added to salesforce
+158077.28002619743
+51  entries added to salesforce
+158384.0268394947
+51  entries added to salesforce
+158677.76506066322
+51  entries added to salesforce
+158977.6792600155
+51  entries added to salesforce
+159283.9854619503
+51  entries added to salesforce
+159578.3769879341
+51  entries added to salesforce
+159878.3875772953
+51  entries added to salesforce
+160184.66801929474
+51  entries added to salesforce
+160479.5427839756
+51  entries added to salesforce
+160778.46337223053
+51  entries added to salesforce
+161086.22552347183
+51  entries added to salesforce
+161379.27901935577
+51  entries added to salesforce
+161678.38063311577
+51  entries added to salesforce
+161986.69029140472
+51  entries added to salesforce
+162279.12542438507
+51  entries added to salesforce
+162579.41521930695
+51  entries added to salesforce
+162883.68731999397
+51  entries added to salesforce
